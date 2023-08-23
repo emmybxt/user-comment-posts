@@ -1,0 +1,16 @@
+# Base image
+FROM node:16-alpine as appBuild
+
+# Create app directory
+WORKDIR /usr/src/app
+
+COPY package.json yarn.lock ./
+
+# Install app dependencies
+RUN yarn install --frozen-lockfile
+
+# Bundle app source
+COPY . .
+
+# Start the server using the production build
+CMD yarn go:prod

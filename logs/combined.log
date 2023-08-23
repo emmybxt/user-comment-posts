@@ -1,0 +1,174 @@
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:30:06.220Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 0 seconds","timestamp":"2023-08-23T18:30:06.230Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 6 seconds","timestamp":"2023-08-23T18:30:06.231Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T18:30:06.238Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 5 seconds","timestamp":"2023-08-23T18:30:07.006Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:30:11.587Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 3 seconds","timestamp":"2023-08-23T18:30:11.595Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 4 seconds","timestamp":"2023-08-23T18:30:11.596Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T18:30:11.601Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 26 seconds","timestamp":"2023-08-23T18:30:14.830Z"}
+{"level":"error","message":"[Attempt #4]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 2 seconds","timestamp":"2023-08-23T18:30:16.237Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-61,"level":"error","message":"Unable to establish database connection connect ECONNREFUSED 127.0.0.1:5432","port":5432,"stack":"Error: connect ECONNREFUSED 127.0.0.1:5432\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)","syscall":"connect","timestamp":"2023-08-23T18:30:18.667Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:33:06.932Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 4 seconds","timestamp":"2023-08-23T18:33:06.941Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 12 seconds","timestamp":"2023-08-23T18:33:06.943Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T18:33:06.948Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 27 seconds","timestamp":"2023-08-23T18:33:11.118Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:33:12.964Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 6 seconds","timestamp":"2023-08-23T18:33:12.973Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 0 seconds","timestamp":"2023-08-23T18:33:12.974Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T18:33:12.980Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 5 seconds","timestamp":"2023-08-23T18:33:13.197Z"}
+{"level":"error","message":"[Attempt #4]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 1 seconds","timestamp":"2023-08-23T18:33:18.286Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-61,"level":"error","message":"Unable to establish database connection connect ECONNREFUSED 127.0.0.1:5432","port":5432,"stack":"Error: connect ECONNREFUSED 127.0.0.1:5432\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)","syscall":"connect","timestamp":"2023-08-23T18:33:19.351Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 1 seconds","timestamp":"2023-08-23T18:38:19.736Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 11 seconds","timestamp":"2023-08-23T18:38:21.368Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 25 seconds","timestamp":"2023-08-23T18:38:32.994Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:38:44.227Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 2 seconds","timestamp":"2023-08-23T18:38:44.235Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 11 seconds","timestamp":"2023-08-23T18:38:44.236Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T18:38:44.242Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 10 seconds","timestamp":"2023-08-23T18:38:46.406Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:38:50.072Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 5 seconds","timestamp":"2023-08-23T18:38:50.079Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 7 seconds","timestamp":"2023-08-23T18:38:50.080Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T18:38:50.086Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 28 seconds","timestamp":"2023-08-23T18:38:55.877Z"}
+{"level":"error","message":"[Attempt #4]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 5 seconds","timestamp":"2023-08-23T18:38:57.335Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-61,"level":"error","message":"Unable to establish database connection connect ECONNREFUSED 127.0.0.1:5432","port":5432,"stack":"Error: connect ECONNREFUSED 127.0.0.1:5432\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)","syscall":"connect","timestamp":"2023-08-23T18:39:02.560Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:39:42.949Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 0 seconds","timestamp":"2023-08-23T18:39:42.958Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 14 seconds","timestamp":"2023-08-23T18:39:43.755Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:39:48.851Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 8 seconds","timestamp":"2023-08-23T18:39:48.861Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:39:58.054Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 1 seconds","timestamp":"2023-08-23T18:39:58.063Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 6 seconds","timestamp":"2023-08-23T18:39:58.064Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T18:39:58.071Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 3 seconds","timestamp":"2023-08-23T18:39:59.934Z"}
+{"level":"error","message":"[Attempt #4]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 25 seconds","timestamp":"2023-08-23T18:40:03.217Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:40:04.096Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 7 seconds","timestamp":"2023-08-23T18:40:04.105Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 12 seconds","timestamp":"2023-08-23T18:40:04.106Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T18:40:04.112Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 24 seconds","timestamp":"2023-08-23T18:40:11.838Z"}
+{"level":"error","message":"[Attempt #4]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 21 seconds","timestamp":"2023-08-23T18:40:16.373Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-61,"level":"error","message":"Unable to establish database connection connect ECONNREFUSED 127.0.0.1:5432","port":5432,"stack":"Error: connect ECONNREFUSED 127.0.0.1:5432\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)","syscall":"connect","timestamp":"2023-08-23T18:40:36.485Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:47:45.216Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 4 seconds","timestamp":"2023-08-23T18:47:45.224Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 18 seconds","timestamp":"2023-08-23T18:47:45.225Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T18:47:45.230Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 20 seconds","timestamp":"2023-08-23T18:47:49.339Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:47:51.341Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 8 seconds","timestamp":"2023-08-23T18:47:51.349Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 17 seconds","timestamp":"2023-08-23T18:47:51.350Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T18:47:51.355Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 0 seconds","timestamp":"2023-08-23T18:47:59.870Z"}
+{"level":"error","message":"[Attempt #4]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 7 seconds","timestamp":"2023-08-23T18:47:59.997Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-61,"level":"error","message":"Unable to establish database connection connect ECONNREFUSED 127.0.0.1:5432","port":5432,"stack":"Error: connect ECONNREFUSED 127.0.0.1:5432\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)","syscall":"connect","timestamp":"2023-08-23T18:48:07.889Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:51:41.002Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 0 seconds","timestamp":"2023-08-23T18:51:41.010Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 7 seconds","timestamp":"2023-08-23T18:51:41.011Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T18:51:41.017Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 2 seconds","timestamp":"2023-08-23T18:51:41.843Z"}
+{"level":"error","message":"[Attempt #4]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 0 seconds","timestamp":"2023-08-23T18:51:44.447Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-61,"level":"error","message":"Unable to establish database connection connect ECONNREFUSED 127.0.0.1:5432","port":5432,"stack":"Error: connect ECONNREFUSED 127.0.0.1:5432\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)","syscall":"connect","timestamp":"2023-08-23T18:51:45.086Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:54:55.553Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 6 seconds","timestamp":"2023-08-23T18:54:55.565Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 2 seconds","timestamp":"2023-08-23T18:54:55.566Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T18:54:55.574Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 28 seconds","timestamp":"2023-08-23T18:54:58.008Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:55:01.528Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 8 seconds","timestamp":"2023-08-23T18:55:01.536Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 18 seconds","timestamp":"2023-08-23T18:55:01.537Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T18:55:01.542Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:55:14.118Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 0 seconds","timestamp":"2023-08-23T18:55:14.128Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 8 seconds","timestamp":"2023-08-23T18:55:14.131Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T18:55:14.137Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 10 seconds","timestamp":"2023-08-23T18:55:14.653Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:55:20.210Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 5 seconds","timestamp":"2023-08-23T18:55:20.219Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 7 seconds","timestamp":"2023-08-23T18:55:20.220Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T18:55:20.225Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 13 seconds","timestamp":"2023-08-23T18:55:25.794Z"}
+{"level":"error","message":"[Attempt #4]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 23 seconds","timestamp":"2023-08-23T18:55:27.992Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-61,"level":"error","message":"Unable to establish database connection connect ECONNREFUSED 127.0.0.1:5432","port":5432,"stack":"Error: connect ECONNREFUSED 127.0.0.1:5432\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)","syscall":"connect","timestamp":"2023-08-23T18:55:39.303Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:55:48.763Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: TypeError: connection.done is not a function. Reconnecting in 4 seconds","timestamp":"2023-08-23T18:55:48.767Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: TypeError: connection.done is not a function. Reconnecting in 6 seconds","timestamp":"2023-08-23T18:55:48.768Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T18:55:48.774Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T18:55:50.011Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 7 seconds","timestamp":"2023-08-23T18:55:50.020Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 2 seconds","timestamp":"2023-08-23T18:55:50.021Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T18:55:50.027Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 1 seconds","timestamp":"2023-08-23T18:55:52.063Z"}
+{"level":"error","message":"[Attempt #4]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 11 seconds","timestamp":"2023-08-23T18:55:53.713Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-61,"level":"error","message":"Unable to establish database connection connect ECONNREFUSED 127.0.0.1:5432","port":5432,"stack":"Error: connect ECONNREFUSED 127.0.0.1:5432\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)","syscall":"connect","timestamp":"2023-08-23T18:55:57.603Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T19:08:14.727Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 9 seconds","timestamp":"2023-08-23T19:08:14.736Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 17 seconds","timestamp":"2023-08-23T19:08:14.738Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T19:08:14.744Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T19:08:20.947Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 6 seconds","timestamp":"2023-08-23T19:08:20.955Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 7 seconds","timestamp":"2023-08-23T19:08:20.956Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T19:08:20.962Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 7 seconds","timestamp":"2023-08-23T19:08:27.244Z"}
+{"level":"error","message":"[Attempt #4]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 33 seconds","timestamp":"2023-08-23T19:08:28.417Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-61,"level":"error","message":"Unable to establish database connection connect ECONNREFUSED 127.0.0.1:5432","port":5432,"stack":"Error: connect ECONNREFUSED 127.0.0.1:5432\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)","syscall":"connect","timestamp":"2023-08-23T19:08:34.334Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T19:08:35.942Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 2 seconds","timestamp":"2023-08-23T19:08:35.950Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 13 seconds","timestamp":"2023-08-23T19:08:35.951Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T19:08:35.957Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 26 seconds","timestamp":"2023-08-23T19:08:38.007Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T19:08:49.429Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T19:08:55.107Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T19:09:10.779Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T19:09:16.420Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T19:09:27.388Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 4 seconds","timestamp":"2023-08-23T19:09:27.406Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 15 seconds","timestamp":"2023-08-23T19:09:27.407Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T19:09:27.413Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 4 seconds","timestamp":"2023-08-23T19:09:31.581Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T19:09:33.163Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 5 seconds","timestamp":"2023-08-23T19:09:33.170Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 13 seconds","timestamp":"2023-08-23T19:09:33.171Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T19:09:33.177Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 14 seconds","timestamp":"2023-08-23T19:09:38.513Z"}
+{"level":"error","message":"[Attempt #4]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 29 seconds","timestamp":"2023-08-23T19:09:46.500Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-61,"level":"error","message":"Unable to establish database connection connect ECONNREFUSED 127.0.0.1:5432","port":5432,"stack":"Error: connect ECONNREFUSED 127.0.0.1:5432\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)","syscall":"connect","timestamp":"2023-08-23T19:09:52.881Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T19:10:53.261Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: error: no pg_hba.conf entry for host \"105.112.190.241\", user \"usercomment\", database \"usercomment\", no encryption. Reconnecting in 6 seconds","timestamp":"2023-08-23T19:10:53.586Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T19:10:53.591Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: error: no pg_hba.conf entry for host \"105.112.190.241\", user \"usercomment\", database \"usercomment\", no encryption. Reconnecting in 13 seconds","timestamp":"2023-08-23T19:10:53.593Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T19:10:58.993Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: error: no pg_hba.conf entry for host \"105.112.190.241\", user \"usercomment\", database \"usercomment\", no encryption. Reconnecting in 5 seconds","timestamp":"2023-08-23T19:10:59.368Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: error: no pg_hba.conf entry for host \"105.112.190.241\", user \"usercomment\", database \"usercomment\", no encryption. Reconnecting in 17 seconds","timestamp":"2023-08-23T19:10:59.372Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T19:10:59.381Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: error: no pg_hba.conf entry for host \"105.112.190.241\", user \"usercomment\", database \"usercomment\", no encryption. Reconnecting in 12 seconds","timestamp":"2023-08-23T19:11:04.811Z"}
+{"level":"error","message":"[Attempt #4]. Unable to connect to Database: error: no pg_hba.conf entry for host \"105.112.190.241\", user \"usercomment\", database \"usercomment\", no encryption. Reconnecting in 19 seconds","timestamp":"2023-08-23T19:11:17.267Z"}
+{"code":"28000","file":"auth.c","length":169,"level":"error","line":"545","message":"Unable to establish database connection no pg_hba.conf entry for host \"105.112.190.241\", user \"usercomment\", database \"usercomment\", no encryption","name":"error","routine":"ClientAuthentication","severity":"FATAL","stack":"error: no pg_hba.conf entry for host \"105.112.190.241\", user \"usercomment\", database \"usercomment\", no encryption\n    at Parser.parseErrorMessage (/Users/nwaobiemeka/Applications/Codebase/Risevest-interview-question/node_modules/pg-protocol/dist/parser.js:287:98)\n    at Parser.handlePacket (/Users/nwaobiemeka/Applications/Codebase/Risevest-interview-question/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/Users/nwaobiemeka/Applications/Codebase/Risevest-interview-question/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/Users/nwaobiemeka/Applications/Codebase/Risevest-interview-question/node_modules/pg-protocol/dist/index.js:11:42)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readable:315:12)\n    at readableAddChunk (node:internal/streams/readable:289:9)\n    at Socket.Readable.push (node:internal/streams/readable:228:10)\n    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)","timestamp":"2023-08-23T19:11:17.418Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T19:12:47.840Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: error: no pg_hba.conf entry for host \"105.112.190.241\", user \"usercomment\", database \"usercomment\", no encryption. Reconnecting in 4 seconds","timestamp":"2023-08-23T19:12:48.231Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: error: no pg_hba.conf entry for host \"105.112.190.241\", user \"usercomment\", database \"usercomment\", no encryption. Reconnecting in 17 seconds","timestamp":"2023-08-23T19:12:48.238Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T19:12:48.244Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: error: no pg_hba.conf entry for host \"105.112.190.241\", user \"usercomment\", database \"usercomment\", no encryption. Reconnecting in 9 seconds","timestamp":"2023-08-23T19:12:52.955Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T19:12:53.579Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: error: no pg_hba.conf entry for host \"105.112.190.241\", user \"usercomment\", database \"usercomment\", no encryption. Reconnecting in 4 seconds","timestamp":"2023-08-23T19:12:53.909Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: error: no pg_hba.conf entry for host \"105.112.190.241\", user \"usercomment\", database \"usercomment\", no encryption. Reconnecting in 14 seconds","timestamp":"2023-08-23T19:12:53.915Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T19:12:53.925Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: error: no pg_hba.conf entry for host \"105.112.190.241\", user \"usercomment\", database \"usercomment\", no encryption. Reconnecting in 13 seconds","timestamp":"2023-08-23T19:12:58.938Z"}
+{"level":"error","message":"[Attempt #4]. Unable to connect to Database: error: no pg_hba.conf entry for host \"105.112.190.241\", user \"usercomment\", database \"usercomment\", no encryption. Reconnecting in 38 seconds","timestamp":"2023-08-23T19:13:08.553Z"}
+{"code":"28000","file":"auth.c","length":169,"level":"error","line":"545","message":"Unable to establish database connection no pg_hba.conf entry for host \"105.112.190.241\", user \"usercomment\", database \"usercomment\", no encryption","name":"error","routine":"ClientAuthentication","severity":"FATAL","stack":"error: no pg_hba.conf entry for host \"105.112.190.241\", user \"usercomment\", database \"usercomment\", no encryption\n    at Parser.parseErrorMessage (/Users/nwaobiemeka/Applications/Codebase/Risevest-interview-question/node_modules/pg-protocol/dist/parser.js:287:98)\n    at Parser.handlePacket (/Users/nwaobiemeka/Applications/Codebase/Risevest-interview-question/node_modules/pg-protocol/dist/parser.js:126:29)\n    at Parser.parse (/Users/nwaobiemeka/Applications/Codebase/Risevest-interview-question/node_modules/pg-protocol/dist/parser.js:39:38)\n    at Socket.<anonymous> (/Users/nwaobiemeka/Applications/Codebase/Risevest-interview-question/node_modules/pg-protocol/dist/index.js:11:42)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readable:315:12)\n    at readableAddChunk (node:internal/streams/readable:289:9)\n    at Socket.Readable.push (node:internal/streams/readable:228:10)\n    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)","timestamp":"2023-08-23T19:13:13.113Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T19:13:18.223Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 5 seconds","timestamp":"2023-08-23T19:13:18.239Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 9 seconds","timestamp":"2023-08-23T19:13:18.240Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T19:13:18.245Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-23T19:13:23.910Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 3 seconds","timestamp":"2023-08-23T19:13:23.918Z"}
+{"level":"error","message":"[Attempt #2]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 3 seconds","timestamp":"2023-08-23T19:13:23.919Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-23T19:13:23.924Z"}
+{"level":"error","message":"[Attempt #3]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 27 seconds","timestamp":"2023-08-23T19:13:27.144Z"}
+{"level":"error","message":"[Attempt #4]. Unable to connect to Database: Error: connect ECONNREFUSED 127.0.0.1:5432. Reconnecting in 35 seconds","timestamp":"2023-08-23T19:13:27.537Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-61,"level":"error","message":"Unable to establish database connection connect ECONNREFUSED 127.0.0.1:5432","port":5432,"stack":"Error: connect ECONNREFUSED 127.0.0.1:5432\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)","syscall":"connect","timestamp":"2023-08-23T19:13:54.458Z"}

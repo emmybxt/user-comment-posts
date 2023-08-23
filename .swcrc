@@ -1,0 +1,32 @@
+{
+  // Enable minification
+  "minify": false,
+  "jsc": {
+    // "externalHelpers": true,
+    "parser": {
+      "syntax": "typescript",
+      "tsx": false,
+      "dynamicImport": true,
+      "privateMethod": false,
+      "functionBind": false,
+      "exportDefaultFrom": false,
+      "exportNamespaceFrom": false,
+      "decorators": false,
+      "decoratorsBeforeExport": false,
+      "topLevelAwait": false,
+      "importMeta": true,
+      "preserveAllComments": false
+    },
+    "transform": {
+      "legacyDecorator": true,
+      "decoratorMetadata": true
+    },
+    "target": "es2021",
+    "loose": true,
+    "keepClassNames": false
+  },
+  "module": {
+    "type": "commonjs"
+  },
+  "sourceMaps": false
+}
