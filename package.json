@@ -12,6 +12,7 @@
     "build:mix": "swc src -d dist & tsc --pretty --skipLibCheck --noEmit",
     "build:tsc": "tsc",
     "build": "swc src -d dist",
+    "lint": "eslint . --ext .ts --fix",
     "test": "jest --verbose --maxWorkers=1 --forceExit",
     "start": "node dist/index.js",
     "dev": "tsc -w & nodemon dist/index.js"
