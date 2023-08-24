@@ -1,22 +1,11 @@
-import pgPromise from "pg-promise";
+import { Sequelize } from "sequelize-typescript";
 import { logger } from "./logger";
-
-const pgp = pgPromise();
-
-const dbConfig = {
-  connectionString: process.env.PG_CONNECTION_STRING,
-};
-
-console.log(process.env.PG_CONNECTION_STRING);
-
+import connectSequelize from "./sequelize";
 let attempts = 0;
 
 export const initDatabase = async () => {
   try {
-    const db = pgp(dbConfig);
-    const connection = await db.connect();
-    console.log("Successfully Connected to PostgreSQL");
-    connection.done(); // Release the connection
+    logger.info("Successfully Connected to PostgreSQL");
   } catch (error) {
     const nextConnect = ++attempts * (Math.random() * 10000);
 
