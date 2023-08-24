@@ -2,10 +2,10 @@ import { PORT } from "./config/env";
 import { validateEnv } from "./config/validate";
 import { createApp } from "./util/express";
 import { logger } from "./util/logger";
-import { initDatabase } from "./util/initDatabase";
+import { initDatabase } from "./util/sequelize";
 import { userRoutes } from "./util/useRoutes";
 import { redisConnection } from "./util/redis";
-import Database from "./util/sequelize";
+// import Database from "./util/sequelize";
 const name = "User Posts & Comments Service";
 
 const init = () => createApp(name, userRoutes);
@@ -15,10 +15,10 @@ const init = () => createApp(name, userRoutes);
 
   logger.info("Connecting to database");
 
-  const db = new Database();
-  db.sequelize!.sync();
+  // const db = new Database();
+  // db.sequelize!.sync();
 
-  // await initDatabase();
+  await initDatabase();
 
   logger.info("connecting To Redis");
 

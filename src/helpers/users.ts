@@ -21,12 +21,18 @@ export async function isTokenValid(token: string): Promise<boolean> {
 
 export async function generateUserBearerToken({
   userID,
+  userName,
 }: {
-  userID: string;
+  userID: number;
+  userName: string;
 }): Promise<string> {
-  const token = jwt.sign({ id: userID }, TOKEN_SECRET as string, {
-    expiresIn: `24h`,
-  });
+  const token = jwt.sign(
+    { id: userID, name: userName },
+    TOKEN_SECRET as string,
+    {
+      expiresIn: `24h`,
+    },
+  );
 
   const key = setSessionRedisKey(token);
 

@@ -4,7 +4,6 @@ import express, { Express, NextFunction, Request, Response } from "express";
 import helmet from "helmet";
 import ResponseHandler from "./response-handler";
 import requestLogger from "../middlewares/requestLogger";
-// import { IUser } from "../models/users";
 
 export interface ExpressRequest extends Request {
   //  user?: IUser

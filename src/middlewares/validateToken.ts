@@ -5,7 +5,7 @@ import { ExpressRequest } from "../util/express";
 import ResponseHandler from "../util/response-handler";
 import { TOKEN_SECRET } from "../config/env";
 import * as userHelper from "../helpers/users";
-import { User } from "../models/users";
+import { DBclient } from "../util/sequelize";
 
 export function throwIfUndefined<T>(x: T | undefined, name?: string): T {
   if (x === undefined) {
@@ -65,7 +65,10 @@ export async function validateToken(
         status: 401,
       });
     }
-    const user = await User.findByPk(decoded.id);
+
+    const checkUserQuery = "SELECT * FROM users WHERE id = $1";
+    const user = await DBclient.query(checkUserQuery, [decoded.id]);
+
     if (!user) {
       return ResponseHandler.sendErrorResponse({
         error: `You're not authorized to carry out this operation. Kindly log out and login with authorized credentials`,
@@ -73,8 +76,6 @@ export async function validateToken(
         status: 401,
       });
     }
-
-    req.user = user;
 
     return next();
   } catch (error) {

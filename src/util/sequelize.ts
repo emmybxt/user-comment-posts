@@ -1,81 +1,73 @@
-import { Sequelize } from "sequelize-typescript";
+import appRoot from "app-root-path";
+import { Client } from "pg";
+import { logger } from "./logger";
+import fs from "fs";
+
 import {
   NODE_ENV,
   POSTGRES_DATABASE,
   POSTGRES_HOST,
   POSTGRES_PASSWORD,
-  POSTGRES_PORT,
   POSTGRES_USERNAME,
 } from "../config/env";
-import { User } from "../models/users";
-import { Post } from "../models/posts";
-import { logger } from "./logger";
 
-// const connectOptions = {
-//   database: POSTGRES_DATABASE,
-//   username: POSTGRES_USERNAME,
-//   password: POSTGRES_PASSWORD,
-//   host: POSTGRES_HOST,
-//   port: 5432,
-//   dialect: "postgres",
-//   models: [Note]
-// };
+const connectOptions = {
+  database: POSTGRES_DATABASE,
+  username: POSTGRES_USERNAME,
+  password: POSTGRES_PASSWORD,
+  host: POSTGRES_HOST,
+  port: 5432,
+  dialect: "postgres",
+};
 
-// const dialectOptions = {};
+const dialectOptions = {};
 
-// if (NODE_ENV !== "development") {
-//   Object.assign(dialectOptions, {
-//     ssl: {
-//       require: true,
-//       rejectUnauthorized: false,
-//     },
-//   });
-// }
+if (NODE_ENV !== "development") {
+  Object.assign(dialectOptions, {
+    ssl: {
+      require: true,
+      rejectUnauthorized: false,
+    },
+  });
+}
+
+export const DBclient = new Client(connectOptions);
 
 let attempts = 0;
 
-class Database {
-  public sequelize: Sequelize | undefined;
+export const initDatabase = async () => {
+  try {
+    await DBclient.connect();
 
-  private POSTGRES_DB = POSTGRES_DATABASE as string;
-  private POSTGRES_HOST = POSTGRES_HOST as string;
-  private POSTGRES_PORT = POSTGRES_PORT as unknown as number;
-  private POSTGRES_USER = POSTGRES_USERNAME as unknown as string;
-  private POSTGRES_PASSWORD = POSTGRES_PASSWORD as unknown as string;
-  constructor() {
-    this.connectToPostgreSQL();
-  }
+    logger.info("Successfully Connected to PostgreSQL");
 
-  private async connectToPostgreSQL() {
-    this.sequelize = new Sequelize({
-      database: this.POSTGRES_DB,
-      username: this.POSTGRES_USER,
-      password: this.POSTGRES_PASSWORD,
-      host: this.POSTGRES_HOST,
-      port: this.POSTGRES_PORT,
-      dialect: "postgres",
-      models: [User, Post],
-    });
+    // create Database Tables
+    const path = `${appRoot}/src/database/db.sql`;
 
-    try {
-      await this.sequelize.authenticate();
-    } catch (error) {
-      const nextConnect = ++attempts * (Math.random() * 10000);
+    const sql = fs.readFileSync(path, "utf8");
 
-      if (attempts >= 5) {
-        logger.error("Unable to establish database connection", error);
-        process.exit(1);
+    DBclient.query(`${sql}`, (err, res) => {
+      if (err) {
+        console.log(err);
+        logger.warn(`Error executing the database tables and columns`);
+      } else {
+        logger.info("Executed Tables and rows successfully");
       }
+    });
+  } catch (error) {
+    const nextConnect = ++attempts * (Math.random() * 10000);
 
-      logger.error(
-        `[Attempt #${attempts}]. Unable to connect to Database: ${error}. Reconnecting in ${Math.floor(
-          nextConnect / 1000,
-        )} seconds`,
-      );
-
-      setTimeout(() => this.connectToPostgreSQL(), nextConnect); // Corrected here
+    if (attempts >= 5) {
+      logger.error("Unable to establish database connection", error);
+      process.exit(1);
     }
-  }
-}
 
-export default Database;
+    logger.error(
+      `[Attempt #${attempts}]. Unable to connect to Database: ${error}. Reconnecting in ${Math.floor(
+        nextConnect / 1000,
+      )} seconds`,
+    );
+
+    setTimeout(() => initDatabase, nextConnect); // Corrected here
+  }
+};
