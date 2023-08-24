@@ -2,7 +2,7 @@ import { Response } from "express";
 
 import { logger } from "./logger";
 
-class ResponseHandler {
+class HandleResponse {
   public static sendSuccessResponse({
     res,
     status = 200,
@@ -43,4 +43,4 @@ class ResponseHandler {
   }
 }
 
-export default ResponseHandler;
+export default HandleResponse;

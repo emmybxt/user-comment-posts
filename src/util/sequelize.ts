@@ -3,20 +3,15 @@ import fs from "fs";
 import { Client } from "pg";
 import { logger } from "./logger";
 
-import { NODE_ENV, POSTGRES_CONNECTION_STRING } from "../config/env";
+import { POSTGRES_CONNECTION_STRING } from "../config/env";
 
 const connectOptions = {
   connectionString: POSTGRES_CONNECTION_STRING,
+  ssl: {
+    // require: false,
+    rejectUnauthorized: false,
+  },
 };
-
-if (NODE_ENV !== "development") {
-  Object.assign(connectOptions, {
-    ssl: {
-      // require: false,
-      rejectUnauthorized: false,
-    },
-  });
-}
 
 export const DBclient = new Client(connectOptions);
 

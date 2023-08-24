@@ -1,18 +1,23 @@
 CREATE TABLE IF NOT EXISTS users (
     id SERIAL PRIMARY KEY,
-    name VARCHAR(255)
+    name VARCHAR(255),
+    password VARCHAR(255),
+    email VARCHAR(255),
+    createdAt TIMESTAMP
 );
 
 CREATE TABLE IF NOT EXISTS posts (
     id SERIAL PRIMARY KEY,
     userId INT,
     title VARCHAR(255),
+    createdAt TIMESTAMP,
     FOREIGN KEY (userId) REFERENCES users(id)
 );
 
 CREATE TABLE IF NOT EXISTS comments (
     id SERIAL PRIMARY KEY,
     postId INT,
+    userId INT,
     content TEXT,
     createdAt TIMESTAMP,
     FOREIGN KEY (postId) REFERENCES posts(id)

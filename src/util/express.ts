@@ -4,9 +4,12 @@ import express, { Express, NextFunction, Request, Response } from "express";
 import helmet from "helmet";
 
 import requestLogger from "../middlewares/requestLogger";
-import ResponseHandler from "./response-handler";
+import HandleResponse from "./response-handler";
+import { IUser } from "../config/interfaces";
 
-export type ExpressRequest = Request;
+export interface ExpressRequest extends Request {
+  user?: IUser;
+}
 
 export const createApp = (
   name = "User Posts & Comments",
@@ -36,7 +39,7 @@ export const createApp = (
   });
 
   app.use((req, res: Response) => {
-    return ResponseHandler.sendErrorResponse({ error: "Route not found", res });
+    return HandleResponse.sendErrorResponse({ error: "Route not found", res });
   });
 
   return app;

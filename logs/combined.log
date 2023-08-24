@@ -6675,3 +6675,592 @@
 {"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:02:22.927Z"}
 {"level":"warn","message":"Error executing the database tables and columns","timestamp":"2023-08-24T17:02:22.931Z"}
 {"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:02:22.933Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:06:49.933Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: error: no pg_hba.conf entry for host \"105.113.70.21\", user \"ieywmznlyydzfm\", database \"df3ccq8mom39e8\", no encryption. Reconnecting in 8 seconds","timestamp":"2023-08-24T17:06:50.417Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:06:50.418Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:06:50.424Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:06:50.427Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:06:56.832Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: error: no pg_hba.conf entry for host \"105.113.70.21\", user \"ieywmznlyydzfm\", database \"df3ccq8mom39e8\", no encryption. Reconnecting in 3 seconds","timestamp":"2023-08-24T17:06:57.358Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:06:57.360Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:06:57.372Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:06:57.377Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:07:19.782Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:07:21.489Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:07:21.494Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:07:21.507Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:07:21.511Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:07:21.772Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:07:36.016Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:07:37.845Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:07:37.849Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:07:37.862Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:07:37.866Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:07:38.156Z"}
+{"body":{"name":"emmybxt"},"duration":558.676293,"headers":{"connection":"keep-alive","content-length":"25","content-type":"application/json","host":"localhost:4002","postman-token":"61a48fde-1d6c-49bf-b673-16406a5e17db"},"level":"info","message":"request.fulfilled","method":"POST","status":200,"timestamp":"2023-08-24T17:07:47.427Z","url":"/v1/auth/register"}
+{"body":{"name":"emmybxt"},"duration":301.678006,"headers":{"connection":"keep-alive","content-length":"25","content-type":"application/json","host":"localhost:4002","postman-token":"6f6c8180-5f28-4e7f-86bd-29677d24631e"},"level":"info","message":"request.fulfilled","method":"POST","status":400,"timestamp":"2023-08-24T17:07:54.030Z","url":"/v1/auth/register"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:10:25.458Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:10:27.210Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:10:27.214Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:10:27.227Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:10:27.231Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:10:27.521Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:11:00.188Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:11:02.064Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:11:02.068Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:11:02.081Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:11:02.085Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:11:02.364Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:15:36.970Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:15:38.592Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:15:38.596Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:15:38.609Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:15:38.613Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:15:38.928Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:16:31.641Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:16:33.383Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:16:33.386Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:16:33.400Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:16:33.404Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:16:33.916Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:16:46.837Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:16:48.493Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:16:48.495Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:16:48.503Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:16:48.506Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:16:48.761Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:22:34.961Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:22:58.601Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:22:58.604Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:22:58.616Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:22:58.620Z"}
+{"level":"warn","message":"Error executing the database tables and columns","timestamp":"2023-08-24T17:22:58.922Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:24:08.312Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:24:13.412Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:24:19.061Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:24:22.766Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:24:22.770Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:24:22.782Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:24:22.787Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:24:24.284Z"}
+{"body":{"email":"kingsleynwaobi@gmail.com","name":"emmybxt","password":"ugowap1234"},"duration":318.555083,"headers":{"connection":"keep-alive","content-length":"96","content-type":"application/json","host":"localhost:4002","postman-token":"4141a5b0-d9f1-40fc-abf2-b44935944e5d"},"level":"info","message":"request.fulfilled","method":"POST","status":400,"timestamp":"2023-08-24T17:24:52.710Z","url":"/v1/auth/register"}
+{"body":{"email":"kingsleynwaobi@gmail.com","name":"emmybxt1","password":"ugowap1234"},"duration":623.737614,"headers":{"connection":"keep-alive","content-length":"97","content-type":"application/json","host":"localhost:4002","postman-token":"085824cf-e923-4395-858b-cdb1d7d1eb57"},"level":"info","message":"request.fulfilled","method":"POST","status":200,"timestamp":"2023-08-24T17:24:58.767Z","url":"/v1/auth/register"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:26:23.301Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:26:26.324Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:26:28.463Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:26:51.396Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:26:51.399Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:26:51.411Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:26:51.415Z"}
+{"level":"warn","message":"Error executing the database tables and columns","timestamp":"2023-08-24T17:26:54.726Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:27:38.430Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:27:46.741Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:27:46.744Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:27:46.755Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:27:46.759Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:27:53.209Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:28:02.462Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:28:14.164Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:28:16.857Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:28:28.552Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:28:28.554Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:28:28.567Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:28:28.572Z"}
+{"level":"warn","message":"Error executing the database tables and columns","timestamp":"2023-08-24T17:28:28.978Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:29:17.983Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:29:21.133Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:29:49.014Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:29:50.659Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:29:55.904Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:29:59.284Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:30:01.835Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:30:09.974Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:30:16.581Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:30:22.172Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:30:25.103Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:30:26.349Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:30:40.893Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:30:42.285Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:30:44.213Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:30:44.215Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:30:44.223Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:30:44.226Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:30:45.731Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:30:57.251Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:30:58.441Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:31:02.138Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:31:08.768Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:31:14.424Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:31:18.061Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:31:21.790Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:31:26.076Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:31:26.078Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:31:26.088Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:31:26.091Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:31:32.181Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:31:37.681Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:31:40.490Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:31:42.664Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:31:42.666Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:31:42.677Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:31:42.685Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:31:44.170Z"}
+{"body":{"email":"kingsleynwaobi@gmail.com","name":"emmybxt1","password":"ugowap1234"},"duration":3988.454613,"headers":{"connection":"keep-alive","content-length":"97","content-type":"application/json","host":"localhost:4002","postman-token":"d75c8c9d-d208-4c91-904f-ddde05d1912d"},"level":"info","message":"request.fulfilled","method":"GET","status":200,"timestamp":"2023-08-24T17:32:11.160Z","url":"/v1/users"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:33:53.025Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:34:03.099Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:34:03.101Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:34:03.115Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:34:03.119Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:34:03.436Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:34:05.957Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:34:07.963Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:34:07.966Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:34:07.979Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:34:07.983Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:34:09.711Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:34:13.760Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:34:19.712Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:34:23.222Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:34:23.224Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:34:23.234Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:34:23.237Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:34:31.171Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:36:32.021Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:36:33.094Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:36:35.988Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:36:37.109Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:36:42.780Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:36:53.528Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:36:54.481Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:36:55.778Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:37:02.406Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:37:08.787Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:37:11.655Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:37:18.349Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:37:18.352Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:37:18.366Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:37:18.370Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:37:19.896Z"}
+{"body":{"title":"ZOROOOOOOO, NAMIIII, CHOPPERRRRRRR"},"duration":802.991273,"headers":{"connection":"keep-alive","content-length":"53","content-type":"application/json","host":"localhost:4002","postman-token":"363fd4e9-effd-4587-8429-29bb0a19f2ab"},"level":"info","message":"request.fulfilled","method":"GET","status":200,"timestamp":"2023-08-24T17:37:48.188Z","url":"/v1/users/1/posts"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:38:07.896Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:38:14.658Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:38:14.662Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:38:14.675Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:38:14.679Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:38:16.318Z"}
+{"body":{"title":"ZOROOOOOOO, NAMIIII, CHOPPERRRRRRR"},"duration":3658.993631,"headers":{"connection":"keep-alive","content-length":"53","content-type":"application/json","host":"localhost:4002","postman-token":"23cb6d79-c43f-4530-b883-5cb3458a3253"},"level":"info","message":"request.fulfilled","method":"GET","status":200,"timestamp":"2023-08-24T17:38:22.018Z","url":"/v1/users/1/posts"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:38:37.219Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:38:39.440Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:38:41.310Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:38:51.007Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:38:51.011Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:38:51.025Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:38:51.030Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:38:52.430Z"}
+{"body":{"title":"ZOROOOOOOO, NAMIIII, CHOPPERRRRRRR"},"duration":4159.070637,"headers":{"connection":"keep-alive","content-length":"53","content-type":"application/json","host":"localhost:4002","postman-token":"d35170ce-fbaf-492f-9fce-fa52e86d5d21"},"level":"info","message":"request.fulfilled","method":"GET","status":200,"timestamp":"2023-08-24T17:38:56.101Z","url":"/v1/users/1/posts"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:39:24.943Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:39:30.145Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:39:34.297Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:39:37.507Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:39:41.330Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:39:42.884Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:39:46.707Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:39:47.849Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:39:50.687Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:39:53.846Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:39:53.850Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:39:53.864Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:39:53.868Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:39:54.248Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:40:00.695Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:40:03.678Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:40:03.681Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:40:03.694Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:40:03.698Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:40:05.091Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:40:05.655Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:40:09.613Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:40:09.615Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:40:09.627Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:40:09.632Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:40:10.029Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:40:15.384Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:40:30.457Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:40:30.460Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:40:30.474Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:40:30.478Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:40:38.288Z"}
+{"body":{"title":"ZOROOOOOOO, NAMIIII, CHOPPERRRRRRR"},"duration":9708.041833,"headers":{"connection":"keep-alive","content-length":"53","content-type":"application/json","host":"localhost:4002","postman-token":"da77275e-7b92-465e-945d-355f99d9ffab"},"level":"info","message":"request.fulfilled","method":"GET","status":200,"timestamp":"2023-08-24T17:40:42.128Z","url":"/v1/users/1/posts"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:42:26.264Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:42:33.376Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:42:33.379Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:42:33.393Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:42:33.397Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:42:39.986Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:48:42.849Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:48:47.909Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:48:47.911Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:48:47.918Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:48:47.922Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:48:49.360Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:52:56.355Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:52:59.294Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:53:10.916Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:53:13.356Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:53:17.308Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:53:17.309Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:53:17.316Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:53:17.319Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:53:17.618Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:53:19.281Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:53:22.112Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:53:34.401Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:53:34.403Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:53:34.416Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:53:34.420Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:53:40.885Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:53:58.113Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:54:08.916Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:54:12.580Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:54:16.290Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:54:20.416Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:54:20.419Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:54:20.432Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:54:20.437Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:54:27.004Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:54:28.886Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:54:32.583Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:54:32.584Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:54:32.592Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:54:32.595Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:54:34.969Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:54:39.815Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:54:43.508Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:54:45.544Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:54:50.161Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:54:51.701Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:55:01.264Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:55:04.258Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:55:04.259Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:55:04.268Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:55:04.272Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T17:55:08.694Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:59:28.933Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:59:29.408Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:59:33.005Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:59:33.007Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:59:33.014Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:59:33.017Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:59:33.592Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:59:37.208Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:59:37.210Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:59:37.220Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:59:37.223Z"}
+{"level":"warn","message":"Error executing the database tables and columns","timestamp":"2023-08-24T17:59:37.615Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:59:39.968Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:59:41.734Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:59:43.512Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:59:45.580Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:59:45.582Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:59:45.590Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:59:45.597Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:59:47.497Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:59:48.544Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:59:52.230Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:59:52.231Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:59:52.239Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:59:52.243Z"}
+{"level":"warn","message":"Error executing the database tables and columns","timestamp":"2023-08-24T17:59:53.650Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:01:26.512Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:01:29.630Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:01:30.572Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:01:34.941Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:01:34.943Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:01:34.954Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:01:34.959Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:01:35.256Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:01:37.636Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:01:45.935Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:01:50.688Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:01:55.073Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:01:55.076Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:01:55.084Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:01:55.089Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:01:55.468Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:02:02.793Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:02:07.803Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:02:08.551Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:02:10.284Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:02:13.057Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:02:13.509Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:02:14.551Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:02:18.273Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:02:18.275Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:02:18.282Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:02:18.286Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:02:19.707Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:02:24.399Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:02:28.103Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:02:28.105Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:02:28.116Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:02:28.120Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:02:29.651Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:02:38.082Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:02:48.704Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:02:54.840Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:02:54.842Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:02:54.855Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:02:54.861Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:02:59.393Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:03:31.295Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:03:34.474Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:03:36.811Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:03:36.814Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:03:36.827Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:03:36.833Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:03:41.446Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:05:34.480Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:05:36.715Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:05:43.207Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:05:45.628Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:05:45.631Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:05:45.642Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:05:45.646Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:05:46.025Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:05:46.480Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:05:49.760Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:06:04.004Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:06:04.005Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:06:04.015Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:06:04.018Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:06:05.423Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:09:44.388Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:10:00.607Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:10:02.542Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:10:02.544Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:10:02.554Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:10:02.557Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:10:04.204Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:10:05.946Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:10:13.621Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:10:15.429Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:10:16.601Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:10:18.937Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:10:20.406Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:10:26.212Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:10:29.661Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:10:31.181Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:10:33.440Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:10:34.736Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:10:39.867Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:10:39.869Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:10:39.878Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:10:39.881Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:10:40.995Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:10:46.000Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:10:52.977Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:10:52.979Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:10:52.991Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:10:52.995Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:10:57.401Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:11:02.675Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:11:03.805Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:11:10.737Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:11:10.740Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:11:10.747Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:11:10.750Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:11:12.143Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:11:16.204Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:11:22.717Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:11:24.887Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:11:26.761Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:11:32.649Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:11:35.064Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:11:39.385Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:11:39.386Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:11:39.395Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:11:39.399Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:11:40.794Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:11:45.347Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:11:58.846Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:11:58.849Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:11:58.865Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:11:58.870Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:12:03.249Z"}
+{"duration":4.274928,"headers":{"connection":"keep-alive","content-length":"0","host":"localhost:4002","postman-token":"f85dd607-622f-4f21-9bbe-7da9df9b02c1"},"level":"info","message":"request.fulfilled","method":"POST","status":400,"timestamp":"2023-08-24T18:12:05.858Z","url":"/v1/post/2/posts"}
+{"duration":1.586095,"headers":{"connection":"keep-alive","content-length":"0","host":"localhost:4002","postman-token":"ad557fd6-5da8-49e4-8e85-834b0a00e0ba"},"level":"info","message":"request.fulfilled","method":"POST","status":400,"timestamp":"2023-08-24T18:12:12.962Z","url":"/v1/post/2/comments"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:12:33.282Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:12:34.440Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:12:35.975Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:12:38.816Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:12:40.980Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:12:50.901Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:13:01.837Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:13:01.839Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:13:01.852Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:13:01.856Z"}
+{"duration":8.298889,"headers":{"connection":"keep-alive","content-length":"0","host":"localhost:4002","postman-token":"50d62e92-fa9c-4a96-acc3-8e608cb6136d"},"level":"info","message":"request.fulfilled","method":"POST","status":400,"timestamp":"2023-08-24T18:13:03.458Z","url":"/v1/post/2/comments"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:13:06.284Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:13:10.819Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:13:12.390Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:13:13.990Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:13:23.039Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:13:23.040Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:13:23.050Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:13:23.054Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:13:26.452Z"}
+{"body":{"name":"emmybxt1"},"duration":10022.555773,"headers":{"connection":"keep-alive","content-length":"31","content-type":"application/json","host":"localhost:4002","postman-token":"7c8453c3-d5b9-4e70-9115-6d905493431e"},"level":"info","message":"request.fulfilled","method":"POST","status":400,"timestamp":"2023-08-24T18:13:53.139Z","url":"/v1/login"}
+{"body":{"name":"emmybxt"},"duration":6317.660565,"headers":{"connection":"keep-alive","content-length":"30","content-type":"application/json","host":"localhost:4002","postman-token":"e642efc9-66b5-426b-88a3-bcd4247cdfb6"},"level":"info","message":"request.fulfilled","method":"POST","status":400,"timestamp":"2023-08-24T18:14:14.031Z","url":"/v1/login"}
+{"body":{"email":"kingsleynwaobi@gmail.com"},"duration":320.880039,"headers":{"connection":"keep-alive","content-length":"43","content-type":"application/json","host":"localhost:4002","postman-token":"c80ca7ad-48c4-422f-b700-ab8fbb909a50"},"level":"info","message":"request.fulfilled","method":"POST","status":200,"timestamp":"2023-08-24T18:14:50.772Z","url":"/v1/login"}
+{"duration":319.833553,"headers":{"connection":"keep-alive","content-length":"0","host":"localhost:4002","postman-token":"082a10c1-39f4-498f-acec-70ea78671fb0"},"level":"info","message":"request.fulfilled","method":"POST","status":400,"timestamp":"2023-08-24T18:15:03.738Z","url":"/v1/post/2/comments"}
+{"duration":3312.000726,"headers":{"connection":"keep-alive","content-length":"0","host":"localhost:4002","postman-token":"de5a2c39-5bff-401a-a406-cb85281f65e7"},"level":"info","message":"request.fulfilled","method":"POST","status":400,"timestamp":"2023-08-24T18:15:16.258Z","url":"/v1/post/2/comments"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:16:44.925Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:16:50.582Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:16:50.585Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:16:50.594Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:16:50.598Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:16:52.340Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:20:06.259Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:20:08.110Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:20:12.012Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:20:12.014Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:20:12.037Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:20:12.042Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:20:17.073Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:20:21.440Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:20:23.188Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:20:25.476Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:20:27.251Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:20:36.879Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:20:40.636Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:20:47.033Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:20:47.880Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:20:52.465Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:20:52.468Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:20:52.481Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:20:52.486Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:20:53.976Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:20:55.642Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:20:59.613Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:21:01.984Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:21:01.988Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:21:02.002Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:21:02.008Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:21:06.793Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:21:10.847Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:21:15.261Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:21:26.758Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:21:26.762Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:21:26.777Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:21:26.781Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:21:31.274Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:21:35.262Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:21:38.056Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:21:41.728Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:21:41.730Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:21:41.741Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:21:41.745Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:21:43.150Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:21:45.862Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:22:10.476Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:22:12.018Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:22:20.359Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:22:22.823Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:22:26.682Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:22:28.786Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:22:32.186Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:22:36.677Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:22:43.212Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:22:48.157Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:22:50.661Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:22:52.552Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:22:52.556Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:22:52.570Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:22:52.575Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:22:52.867Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:22:54.292Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:23:02.094Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:23:02.096Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:23:02.108Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:23:02.113Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:23:09.627Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:23:13.625Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:23:19.140Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:23:24.748Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:23:30.935Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:23:35.952Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:23:41.570Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:23:46.068Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:23:46.070Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:23:46.083Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:23:46.087Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:23:46.389Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:23:48.687Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:23:57.217Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:24:01.129Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:24:01.131Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:24:01.144Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:24:01.149Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:24:05.929Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:24:10.625Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:24:14.785Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:24:16.926Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:24:21.876Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:24:31.072Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:24:31.075Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:24:31.087Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:24:31.093Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:24:32.671Z"}
+{"body":{"title":"ZOROOOOOOO, NAMIIII, CHOPPERRRRRRR"},"duration":623.805601,"headers":{"connection":"keep-alive","content-length":"53","content-type":"application/json","host":"localhost:4002","postman-token":"5db0c0dc-e634-487d-bc09-16319bbb4f55"},"level":"info","message":"request.fulfilled","method":"GET","status":200,"timestamp":"2023-08-24T18:24:38.606Z","url":"/v1/users/1/posts"}
+{"body":{"title":"ZOROOOOOOO, NAMIIII, CHOPPERRRRRRR"},"duration":625.985735,"headers":{"connection":"keep-alive","content-length":"53","content-type":"application/json","host":"localhost:4002","postman-token":"ce58cb1f-f0a4-44f1-a99d-3fe9d74f3d79"},"level":"info","message":"request.fulfilled","method":"POST","status":200,"timestamp":"2023-08-24T18:24:44.144Z","url":"/v1/users/1/posts"}
+{"body":{"title":"ZOROOOOOOO, NAMIIII, CHOPPERRRRRRR"},"duration":3623.622299,"headers":{"connection":"keep-alive","content-length":"53","content-type":"application/json","host":"localhost:4002","postman-token":"50a5f419-2dbe-4124-a806-ba84ef5f2c4f"},"level":"info","message":"request.fulfilled","method":"GET","status":200,"timestamp":"2023-08-24T18:24:55.493Z","url":"/v1/users/1/posts"}
+{"body":{"title":"ZOROOOOOOO, NAMIIII, CHOPPERRRRRRR"},"duration":3642.126867,"headers":{"connection":"keep-alive","content-length":"53","content-type":"application/json","host":"localhost:4002","postman-token":"9df20d94-1e13-4029-86f6-132ad09cc443"},"level":"info","message":"request.fulfilled","method":"POST","status":200,"timestamp":"2023-08-24T18:25:05.531Z","url":"/v1/users/1/posts"}
+{"body":{"content":"this is a new comment"},"duration":6962.8353,"headers":{"connection":"keep-alive","content-length":"42","content-type":"application/json","host":"localhost:4002","postman-token":"ed4b05bf-91a1-4aa6-88d1-c9fdd4a5d6cb"},"level":"info","message":"request.fulfilled","method":"POST","status":400,"timestamp":"2023-08-24T18:25:49.001Z","url":"/v1/posts/2/comments"}
+{"body":{"content":"this is a new comment"},"duration":4040.955958,"headers":{"connection":"keep-alive","content-length":"42","content-type":"application/json","host":"localhost:4002","postman-token":"c2bb016a-ce9a-4a48-b74f-e38ce67d22d6"},"level":"info","message":"request.fulfilled","method":"POST","status":400,"timestamp":"2023-08-24T18:26:29.364Z","url":"/v1/posts/3/comments"}
+{"body":{"title":"ZOROOOOOOO, NAMIIII, CHOPPERRRRRRR"},"duration":623.647928,"headers":{"connection":"keep-alive","content-length":"53","content-type":"application/json","host":"localhost:4002","postman-token":"02df966e-6721-46f8-8e2a-9fbbdb1eb53d"},"level":"info","message":"request.fulfilled","method":"POST","status":200,"timestamp":"2023-08-24T18:26:41.180Z","url":"/v1/users/1/posts"}
+{"body":{"title":"ZOROOOOOOO, NAMIIII, CHOPPERRRRRRR"},"duration":615.681551,"headers":{"connection":"keep-alive","content-length":"53","content-type":"application/json","host":"localhost:4002","postman-token":"60c36abb-62a3-4c60-a13c-7614c60067b5"},"level":"info","message":"request.fulfilled","method":"POST","status":200,"timestamp":"2023-08-24T18:26:42.731Z","url":"/v1/users/1/posts"}
+{"body":{"title":"ZOROOOOOOO, NAMIIII, CHOPPERRRRRRR"},"duration":6671.490609,"headers":{"connection":"keep-alive","content-length":"53","content-type":"application/json","host":"localhost:4002","postman-token":"85949264-7c8c-496e-97cc-50de96ba79fa"},"level":"info","message":"request.fulfilled","method":"POST","status":200,"timestamp":"2023-08-24T18:26:50.163Z","url":"/v1/users/1/posts"}
+{"body":{"content":"this is a new comment"},"duration":584.833331,"headers":{"connection":"keep-alive","content-length":"42","content-type":"application/json","host":"localhost:4002","postman-token":"47340aaa-34cf-4155-89a0-b6c41adbc993"},"level":"info","message":"request.fulfilled","method":"POST","status":400,"timestamp":"2023-08-24T18:27:15.756Z","url":"/v1/posts/3/comments"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:27:32.350Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:27:34.690Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:27:34.693Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:27:34.703Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:27:34.707Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:27:39.331Z"}
+{"body":{"content":"this is a new comment"},"duration":674.4834,"headers":{"connection":"keep-alive","content-length":"42","content-type":"application/json","host":"localhost:4002","postman-token":"582c70dc-3b24-4ad0-9df5-0470ceac5291"},"level":"info","message":"request.fulfilled","method":"POST","status":400,"timestamp":"2023-08-24T18:27:49.636Z","url":"/v1/posts/3/comments"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:27:59.824Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:28:11.539Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:28:11.543Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:28:11.557Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:28:11.565Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:28:12.954Z"}
+{"body":{"content":"this is a new comment"},"duration":748.936706,"headers":{"connection":"keep-alive","content-length":"42","content-type":"application/json","host":"localhost:4002","postman-token":"26908715-2984-4c6f-9f1f-a52dab6f7a58"},"level":"info","message":"request.fulfilled","method":"POST","status":500,"timestamp":"2023-08-24T18:28:33.486Z","url":"/v1/posts/3/comments"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:29:12.073Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:29:19.464Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:29:19.467Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:29:19.489Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:29:19.499Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:29:26.912Z"}
+{"body":{"content":"this is a new comment"},"duration":3705.719861,"headers":{"connection":"keep-alive","content-length":"42","content-type":"application/json","host":"localhost:4002","postman-token":"f71e20b1-6de3-4f04-9c97-920ac82362f6"},"level":"info","message":"request.fulfilled","method":"POST","status":500,"timestamp":"2023-08-24T18:29:28.250Z","url":"/v1/posts/3/comments"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:29:45.221Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:29:50.159Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:29:50.162Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:29:50.181Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:29:50.190Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:29:52.914Z"}
+{"body":{"content":"this is a new comment"},"duration":7087.09156,"headers":{"connection":"keep-alive","content-length":"42","content-type":"application/json","host":"localhost:4002","postman-token":"d86ec0ce-cc51-4fc3-8efd-80ae6407a439"},"level":"info","message":"request.fulfilled","method":"POST","status":500,"timestamp":"2023-08-24T18:30:02.488Z","url":"/v1/posts/3/comments"}
+{"body":{"content":"this is a new comment"},"duration":5088.236472,"headers":{"connection":"keep-alive","content-length":"42","content-type":"application/json","host":"localhost:4002","postman-token":"53eb0c88-960f-4003-9ff4-85006bab77f3"},"level":"info","message":"request.fulfilled","method":"POST","status":500,"timestamp":"2023-08-24T18:31:24.731Z","url":"/v1/posts/3/comments"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:33:31.916Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:33:35.624Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:33:35.627Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:33:35.641Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:33:35.647Z"}
+{"level":"warn","message":"Error executing the database tables and columns","timestamp":"2023-08-24T18:33:46.561Z"}
+{"body":{"content":"this is a new comment"},"duration":6267.687903,"headers":{"connection":"keep-alive","content-length":"42","content-type":"application/json","host":"localhost:4002","postman-token":"58d8963f-535d-4b4a-b645-8aee3b0021b4"},"level":"info","message":"request.fulfilled","method":"POST","status":500,"timestamp":"2023-08-24T18:33:47.724Z","url":"/v1/posts/3/comments"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T18:34:28.530Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T18:34:38.291Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T18:34:38.293Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T18:34:38.319Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T18:34:38.328Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T18:34:43.064Z"}
+{"body":{"content":"this is a new comment"},"duration":8059.169625,"headers":{"connection":"keep-alive","content-length":"42","content-type":"application/json","host":"localhost:4002","postman-token":"45cab07b-c592-40a4-829b-eec4c912edd6"},"level":"info","message":"request.fulfilled","method":"POST","status":500,"timestamp":"2023-08-24T18:34:53.096Z","url":"/v1/posts/3/comments"}

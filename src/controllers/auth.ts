@@ -3,7 +3,7 @@ import { NextFunction, Response } from "express";
 import { ResponseType } from "../helpers/users";
 import * as userHelper from "../helpers/users";
 import { ExpressRequest } from "../util/express";
-import ResponseHandler from "../util/response-handler";
+import HandleResponse from "../util/response-handler";
 import { DBclient } from "../util/sequelize";
 
 export async function signUp(
@@ -11,7 +11,7 @@ export async function signUp(
   res: Response,
   next: NextFunction,
 ): Promise<ResponseType> {
-  const { name } = req.body;
+  const { name, email, password } = req.body;
 
   try {
     // Check if the username already exists
@@ -19,17 +19,22 @@ export async function signUp(
     const existingUser = await DBclient.query(checkUserQuery, [name]);
 
     if (existingUser.rowCount > 0) {
-      return ResponseHandler.sendErrorResponse({
+      return HandleResponse.sendErrorResponse({
         error: "Username already exists, try a different one",
         res,
       });
     }
 
     // Insert the new user
-    const insertUserQuery = "INSERT INTO users (name) VALUES ($1) RETURNING *";
-    const newUser = await DBclient.query(insertUserQuery, [name]);
+    const insertUserQuery =
+      "INSERT INTO users (name, email, password) VALUES ($1, $2, $3) RETURNING *";
+    const newUser = await DBclient.query(insertUserQuery, [
+      name,
+      email,
+      password,
+    ]);
 
-    return ResponseHandler.sendSuccessResponse({
+    return HandleResponse.sendSuccessResponse({
       message: "User created successfully",
       data: newUser.rows[0],
       res,
@@ -45,14 +50,14 @@ export async function login(
   res: Response,
   next: NextFunction,
 ): Promise<ResponseType> {
-  const { name } = req.body;
+  const { email, password } = req.body;
 
   try {
-    const query = "SELECT * FROM users WHERE name = $1";
-    const { rows } = await DBclient.query(query, [name]);
+    const query = "SELECT * FROM users WHERE email = $1";
+    const { rows } = await DBclient.query(query, [email]);
 
     if (rows.length === 0) {
-      return ResponseHandler.sendErrorResponse({
+      return HandleResponse.sendErrorResponse({
         error: "User doesn't exist, please sign up",
         res,
       });
@@ -65,7 +70,7 @@ export async function login(
       userName: userData.name,
     });
 
-    return ResponseHandler.sendSuccessResponse({
+    return HandleResponse.sendSuccessResponse({
       message: "Login successful",
       data: {
         token,
@@ -78,65 +83,25 @@ export async function login(
   }
 }
 
-export async function createPosts(
+export async function getAllUsers(
   req: ExpressRequest,
   res: Response,
   next: NextFunction,
 ): Promise<ResponseType> {
-  const { id, title }: { id: number; title: string; content: string } = {
-    ...req.body,
-    ...req.params,
-  };
-
   try {
-    const query = "SELECT * FROM users WHERE id = $1";
-    const { rows } = await DBclient.query(query, [id]);
+    const query = "SELECT * FROM users";
+    const { rows } = await DBclient.query(query);
 
     if (rows.length === 0) {
-      return ResponseHandler.sendErrorResponse({
-        error: "User not found",
+      return HandleResponse.sendErrorResponse({
+        error: "No users registered yet",
         res,
       });
     }
 
-    const insertPostQuery =
-      "INSERT INTO posts (title, userId) VALUES ($1, $2) RETURNING *";
-    const newUser = await DBclient.query(insertPostQuery, [title, id]);
-
-    return ResponseHandler.sendSuccessResponse({
-      message: "Post created successfully",
-      data: newUser.rows[0],
-      res,
-    });
-  } catch (error) {
-    console.error(error);
-    return next(error);
-  }
-}
-export async function getUserPosts(
-  req: ExpressRequest,
-  res: Response,
-  next: NextFunction,
-): Promise<ResponseType> {
-  const { id } = req.params;
-
-  try {
-    const query = "SELECT * FROM users WHERE id = $1";
-    const { rows } = await DBclient.query(query, [id]);
-
-    if (rows.length === 0) {
-      return ResponseHandler.sendErrorResponse({
-        error: "User not found",
-        res,
-      });
-    }
-
-    const userPostsQuery = "SELECT * FROM posts WHERE userid = $1";
-    const userPosts = await DBclient.query(userPostsQuery, [id]);
-
-    return ResponseHandler.sendSuccessResponse({
-      message: "User Posts Fetched succesfully",
-      data: userPosts.rows,
+    return HandleResponse.sendSuccessResponse({
+      message: "All users fetched successfully",
+      data: rows,
       res,
     });
   } catch (error) {

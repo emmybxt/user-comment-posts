@@ -5,7 +5,7 @@ import jwt from "jsonwebtoken";
 import { TOKEN_SECRET } from "../config/env";
 import * as userHelper from "../helpers/users";
 import { ExpressRequest } from "../util/express";
-import ResponseHandler from "../util/response-handler";
+import HandleResponse from "../util/response-handler";
 import { DBclient } from "../util/sequelize";
 
 export function throwIfUndefined<T>(x: T | undefined, name?: string): T {
@@ -34,7 +34,7 @@ export async function validateToken(
   const validation = schema.validate(req.headers);
 
   if (validation.error) {
-    return ResponseHandler.sendErrorResponse({
+    return HandleResponse.sendErrorResponse({
       error: validation.error.details[0].message,
       res,
     });
@@ -51,7 +51,7 @@ export async function validateToken(
         id: string;
       };
     } catch {
-      return ResponseHandler.sendErrorResponse({
+      return HandleResponse.sendErrorResponse({
         error: `You're not authorized to carry out this operation. Kindly log out and login with authorized credentials`,
         res,
         status: 401,
@@ -60,7 +60,7 @@ export async function validateToken(
 
     const tokenStatus = await userHelper.isTokenValid(token);
     if (!tokenStatus) {
-      return ResponseHandler.sendErrorResponse({
+      return HandleResponse.sendErrorResponse({
         error: `You're not authorized to carry out this operation. Kindly log out and login with authorized credentials`,
         res,
         status: 401,
@@ -71,13 +71,14 @@ export async function validateToken(
     const user = await DBclient.query(checkUserQuery, [decoded.id]);
 
     if (!user) {
-      return ResponseHandler.sendErrorResponse({
+      return HandleResponse.sendErrorResponse({
         error: `You're not authorized to carry out this operation. Kindly log out and login with authorized credentials`,
         res,
         status: 401,
       });
     }
 
+    req.user = user.rows[0];
     return next();
   } catch (error) {
     return next(error);
