@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "A REST API server that lets user create posts and comments",
   "main": "index.js",
-  "engines": {
-    "node": ">= 16.15",
-    "yarn": ">= 1.19.1"
-  },
   "scripts": {
     "build:mix": "swc src -d dist & tsc --pretty --skipLibCheck --noEmit",
     "build:tsc": "tsc",
