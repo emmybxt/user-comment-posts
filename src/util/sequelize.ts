@@ -1,6 +1,7 @@
 import appRoot from "app-root-path";
 import fs from "fs";
 import { Client } from "pg";
+import { logger } from "./logger";
 
 import {
   NODE_ENV,
@@ -9,7 +10,6 @@ import {
   POSTGRES_PASSWORD,
   POSTGRES_USERNAME,
 } from "../config/env";
-import { logger } from "./logger";
 
 const connectOptions = {
   database: POSTGRES_DATABASE,

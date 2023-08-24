@@ -27,7 +27,7 @@
     "type": "git",
     "url": "git+https://github.com/emmybxt/user-comment-posts.git"
   },
-  "author": "Ire Olaniyan",
+  "author": "Nwaobi Emeka",
   "license": "ISC",
   "homepage": "https://github.com/emmybxt/user-comment-posts#readme",
   "devDependencies": {
@@ -41,7 +41,7 @@
     "@types/supertest": "^2.0.12",
     "@typescript-eslint/eslint-plugin": "^5.33.1",
     "@typescript-eslint/parser": "^5.33.1",
-    "eslint": "^8.21.0",
+    "eslint": "^8.47.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "husky": "^4.3.8",
