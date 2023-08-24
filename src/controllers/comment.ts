@@ -32,6 +32,7 @@ export async function createComment(
 
     const insertCommentQuery =
       "INSERT INTO comments (postid, userId, content) VALUES ($1, $2, $3) RETURNING *";
+
     const newComment = await DBclient.query(insertCommentQuery, [
       postId,
       user.id,

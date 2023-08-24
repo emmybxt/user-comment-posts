@@ -15,12 +15,12 @@ export async function signUp(
 
   try {
     // Check if the username already exists
-    const checkUserQuery = "SELECT * FROM users WHERE name = $1";
+    const checkUserQuery = "SELECT * FROM users WHERE email = $1";
     const existingUser = await DBclient.query(checkUserQuery, [name]);
 
     if (existingUser.rowCount > 0) {
       return HandleResponse.sendErrorResponse({
-        error: "Username already exists, try a different one",
+        error: "Email already exists, try a different one",
         res,
       });
     }
@@ -64,6 +64,8 @@ export async function login(
     }
 
     const userData = rows[0];
+
+    delete userData.password;
 
     const token = await userHelper.generateUserBearerToken({
       userID: userData.id,
