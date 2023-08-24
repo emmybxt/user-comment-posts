@@ -2,9 +2,9 @@ import { PORT } from "./config/env";
 import { validateEnv } from "./config/validate";
 import { createApp } from "./util/express";
 import { logger } from "./util/logger";
+import { redisConnection } from "./util/redis";
 import { initDatabase } from "./util/sequelize";
 import { userRoutes } from "./util/useRoutes";
-import { redisConnection } from "./util/redis";
 // import Database from "./util/sequelize";
 const name = "User Posts & Comments Service";
 

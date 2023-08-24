@@ -1,8 +1,8 @@
 import { Response } from "express";
+import jwt from "jsonwebtoken";
 
 import { TOKEN_SECRET } from "../config/env";
 import { redisConnection } from "../util/redis";
-import jwt from "jsonwebtoken";
 
 export type ResponseType = Response | void;
 

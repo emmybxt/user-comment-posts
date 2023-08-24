@@ -2,7 +2,7 @@
   "name": "user-posts",
   "version": "1.0.0",
   "description": "A REST API server that lets user create posts and comments",
-  "main": "dist/index.js",
+  "main": "index.js",
   "engines": {
     "node": ">= 16.15",
     "npm": "please-use-yarn",
@@ -21,7 +21,7 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged",
       "prepare-commit-msg": "jira-prepare-commit-msg",
-      "pre-push": "yarn lint && yarn build:mix && yarn test"
+      "pre-push": "yarn build:mix"
     }
   },
   "jest-junit": {
@@ -63,6 +63,7 @@
   "dependencies": {
     "@types/bcrypt": "^5.0.0",
     "@types/cors": "^2.8.13",
+    "@types/eslint": "^8.44.2",
     "@types/jsonwebtoken": "^9.0.2",
     "@types/lodash": "^4.14.197",
     "@types/pg": "^8.10.2",

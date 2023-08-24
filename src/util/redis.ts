@@ -1,7 +1,6 @@
 import IORedis, { Redis } from "ioredis";
 
 import { REDIS_URL } from "../config/env";
-
 import { logger } from "./logger";
 
 let redis: Redis;

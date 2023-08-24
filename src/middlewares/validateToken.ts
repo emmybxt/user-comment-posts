@@ -1,10 +1,11 @@
 import { NextFunction, Response } from "express";
 import Joi from "joi";
 import jwt from "jsonwebtoken";
-import { ExpressRequest } from "../util/express";
-import ResponseHandler from "../util/response-handler";
+
 import { TOKEN_SECRET } from "../config/env";
 import * as userHelper from "../helpers/users";
+import { ExpressRequest } from "../util/express";
+import ResponseHandler from "../util/response-handler";
 import { DBclient } from "../util/sequelize";
 
 export function throwIfUndefined<T>(x: T | undefined, name?: string): T {

@@ -1,8 +1,9 @@
 import { NextFunction, Response } from "express";
-import { ExpressRequest } from "../util/express";
-import ResponseHandler from "../util/response-handler";
+
 import { ResponseType } from "../helpers/users";
 import * as userHelper from "../helpers/users";
+import { ExpressRequest } from "../util/express";
+import ResponseHandler from "../util/response-handler";
 import { DBclient } from "../util/sequelize";
 
 export async function signUp(

@@ -2,12 +2,11 @@ import { json } from "body-parser";
 import cors from "cors";
 import express, { Express, NextFunction, Request, Response } from "express";
 import helmet from "helmet";
-import ResponseHandler from "./response-handler";
-import requestLogger from "../middlewares/requestLogger";
 
-export interface ExpressRequest extends Request {
-  //  user?: IUser
-}
+import requestLogger from "../middlewares/requestLogger";
+import ResponseHandler from "./response-handler";
+
+export type ExpressRequest = Request;
 
 export const createApp = (
   name = "User Posts & Comments",
