@@ -3,29 +3,16 @@ import fs from "fs";
 import { Client } from "pg";
 import { logger } from "./logger";
 
-import {
-  NODE_ENV,
-  POSTGRES_DATABASE,
-  POSTGRES_HOST,
-  POSTGRES_PASSWORD,
-  POSTGRES_USERNAME,
-} from "../config/env";
+import { NODE_ENV, POSTGRES_CONNECTION_STRING } from "../config/env";
 
 const connectOptions = {
-  database: POSTGRES_DATABASE,
-  username: POSTGRES_USERNAME,
-  password: POSTGRES_PASSWORD,
-  host: POSTGRES_HOST,
-  port: 5432,
-  dialect: "postgres",
+  connectionString: POSTGRES_CONNECTION_STRING,
 };
 
-const dialectOptions = {};
-
 if (NODE_ENV !== "development") {
-  Object.assign(dialectOptions, {
+  Object.assign(connectOptions, {
     ssl: {
-      require: true,
+      // require: false,
       rejectUnauthorized: false,
     },
   });

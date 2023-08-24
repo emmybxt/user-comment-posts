@@ -6565,3 +6565,113 @@
 {"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T16:43:59.599Z"}
 {"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T16:43:59.602Z"}
 {"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T16:43:59.604Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T16:49:14.749Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T16:49:14.778Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T16:49:14.780Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T16:49:14.787Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T16:49:14.788Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T16:49:14.790Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T16:49:21.163Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T16:49:23.865Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T16:49:23.869Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T16:49:23.883Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T16:49:23.886Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T16:49:24.477Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T16:53:33.521Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T16:53:35.716Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T16:53:35.724Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T16:53:35.740Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T16:53:35.746Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T16:53:36.073Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T16:54:22.116Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T16:54:26.068Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T16:54:30.027Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T16:54:30.029Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T16:54:30.036Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T16:54:30.039Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T16:54:31.665Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T16:54:38.704Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T16:54:40.780Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T16:54:40.781Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T16:54:40.792Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T16:54:40.796Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T16:54:41.298Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T16:54:43.427Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T16:54:45.169Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T16:54:47.332Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T16:54:47.334Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T16:54:47.345Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T16:54:47.348Z"}
+{"level":"info","message":"Executed Tables and rows successfully","timestamp":"2023-08-24T16:54:47.744Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T16:54:51.513Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: The server does not support SSL connections. Reconnecting in 3 seconds","timestamp":"2023-08-24T16:54:51.523Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T16:54:51.524Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T16:54:51.531Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T16:54:51.533Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T16:54:53.379Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: The server does not support SSL connections. Reconnecting in 3 seconds","timestamp":"2023-08-24T16:54:53.391Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T16:54:53.392Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T16:54:53.399Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T16:54:53.402Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T16:55:05.320Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: The server does not support SSL connections. Reconnecting in 7 seconds","timestamp":"2023-08-24T16:55:05.330Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T16:55:05.331Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T16:55:05.338Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T16:55:05.340Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T16:55:10.262Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: Error: The server does not support SSL connections. Reconnecting in 0 seconds","timestamp":"2023-08-24T16:55:10.272Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T16:55:10.273Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T16:55:10.279Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T16:55:10.282Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T16:55:23.787Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T16:55:23.800Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T16:55:23.802Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T16:55:23.808Z"}
+{"level":"warn","message":"Error executing the database tables and columns","timestamp":"2023-08-24T16:55:23.813Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T16:55:23.815Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T16:55:25.289Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T16:55:25.303Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T16:55:25.304Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T16:55:25.312Z"}
+{"level":"warn","message":"Error executing the database tables and columns","timestamp":"2023-08-24T16:55:25.316Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T16:55:25.318Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T16:55:28.651Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T16:55:28.665Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T16:55:28.666Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T16:55:28.673Z"}
+{"level":"warn","message":"Error executing the database tables and columns","timestamp":"2023-08-24T16:55:28.678Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T16:55:28.680Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T16:56:06.870Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T16:56:06.884Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T16:56:06.886Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T16:56:06.892Z"}
+{"level":"warn","message":"Error executing the database tables and columns","timestamp":"2023-08-24T16:56:06.896Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T16:56:06.898Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T16:59:57.549Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: error: no pg_hba.conf entry for host \"105.113.70.21\", user \"ieywmznlyydzfm\", database \"df3ccq8mom39e8\", no encryption. Reconnecting in 2 seconds","timestamp":"2023-08-24T16:59:58.108Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T16:59:58.110Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T16:59:58.123Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T16:59:58.127Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:01:28.230Z"}
+{"level":"error","message":"[Attempt #1]. Unable to connect to Database: error: no pg_hba.conf entry for host \"105.113.70.21\", user \"ieywmznlyydzfm\", database \"df3ccq8mom39e8\", no encryption. Reconnecting in 1 seconds","timestamp":"2023-08-24T17:01:28.934Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:01:28.935Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:01:28.948Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:01:28.952Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:01:48.468Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:01:48.495Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:01:48.497Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:01:48.504Z"}
+{"level":"warn","message":"Error executing the database tables and columns","timestamp":"2023-08-24T17:01:48.508Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:01:48.510Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:02:16.029Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:02:16.050Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:02:16.051Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:02:16.058Z"}
+{"level":"warn","message":"Error executing the database tables and columns","timestamp":"2023-08-24T17:02:16.063Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:02:16.065Z"}
+{"level":"info","message":"Connecting to database","timestamp":"2023-08-24T17:02:22.905Z"}
+{"level":"info","message":"Successfully Connected to PostgreSQL","timestamp":"2023-08-24T17:02:22.919Z"}
+{"level":"info","message":"connecting To Redis","timestamp":"2023-08-24T17:02:22.920Z"}
+{"level":"info","message":"User Posts & Comments Service Started successfully on :4002","timestamp":"2023-08-24T17:02:22.927Z"}
+{"level":"warn","message":"Error executing the database tables and columns","timestamp":"2023-08-24T17:02:22.931Z"}
+{"level":"info","message":"connection to Redis Established ","timestamp":"2023-08-24T17:02:22.933Z"}
