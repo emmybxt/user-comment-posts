@@ -1,5 +1,5 @@
 import { NextFunction, Response } from "express";
-
+import crypto from "crypto";
 import { ResponseType } from "../helpers/users";
 import * as userHelper from "../helpers/users";
 import { ExpressRequest } from "../util/express";
@@ -16,7 +16,7 @@ export async function signUp(
   try {
     // Check if the username already exists
     const checkUserQuery = "SELECT * FROM users WHERE email = $1";
-    const existingUser = await DBclient.query(checkUserQuery, [name]);
+    const existingUser = await DBclient.query(checkUserQuery, [email]);
 
     if (existingUser.rowCount > 0) {
       return HandleResponse.sendErrorResponse({
@@ -24,6 +24,12 @@ export async function signUp(
         res,
       });
     }
+    //hash password
+
+    const hashedPassword = await crypto
+      .createHash("sha256")
+      .update(password)
+      .digest("hex");
 
     // Insert the new user
     const insertUserQuery =
@@ -31,7 +37,7 @@ export async function signUp(
     const newUser = await DBclient.query(insertUserQuery, [
       name,
       email,
-      password,
+      hashedPassword,
     ]);
 
     return HandleResponse.sendSuccessResponse({
@@ -63,7 +69,24 @@ export async function login(
       });
     }
 
+    // Hash the entered password
+    const enteredHashedPassword = crypto
+      .createHash("sha256")
+      .update(password)
+      .digest("hex");
+
+    // Compare the hashes
+
     const userData = rows[0];
+
+    console.log(userData.password);
+
+    if (enteredHashedPassword != userData.password) {
+      return HandleResponse.sendErrorResponse({
+        error: "Password is incorrect",
+        res,
+      });
+    }
 
     delete userData.password;
 

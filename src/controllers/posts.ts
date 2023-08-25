@@ -94,35 +94,26 @@ export async function getTopUsersAndComment(
       });
     }
 
-    const query = `SELECT
-  u.id,
-  u.name,
-  p.title,
-  c.content
-FROM
-  users u
-LEFT JOIN (
-  SELECT
-      p1.userId,
-      p1.id AS postId,
-      p1.title
-  FROM
-      posts p1
-  WHERE
-      p1.createdAt = (SELECT MAX(p2.createdAt) FROM posts p2 WHERE p2.userId = p1.userId)
-) p ON u.id = p.userId
-LEFT JOIN (
-  SELECT
-      c1.postId,
-      c1.content
-  FROM
-      comments c1
-  WHERE
-      c1.createdAt = (SELECT MAX(c2.createdAt) FROM comments c2 WHERE c2.postId = c1.postId)
-) c ON p.postId = c.postId
-ORDER BY
-  (SELECT COUNT(p3.id) FROM posts p3 WHERE p3.userId = u.id) DESC
-LIMIT 3`;
+    const query = `SELECT users.id, users.name, p.title, c.content
+    FROM users
+    LEFT JOIN (
+        SELECT userId, MAX(createdAt) AS max_createdAt
+        FROM posts
+        GROUP BY userId
+    ) recent_posts ON users.id = recent_posts.userId
+    LEFT JOIN posts p ON recent_posts.userId = p.userId AND recent_posts.max_createdAt = p.createdAt
+    LEFT JOIN (
+        SELECT postId, MAX(createdAt) AS max_comment_createdAt
+        FROM comments
+        GROUP BY postId
+    ) recent_comments ON p.id = recent_comments.postId
+    LEFT JOIN comments c ON recent_comments.postId = c.postId AND recent_comments.max_comment_createdAt = c.createdAt
+    ORDER BY (
+        SELECT COUNT(id)
+        FROM posts
+        WHERE userId = users.id
+    ) DESC
+    LIMIT 3`;
 
     const usersTopPostsAndComments = await DBclient.query(query);
 
