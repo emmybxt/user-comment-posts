@@ -37,7 +37,7 @@ describe("User", () => {
   beforeEach(async () => {
     // getOneBySpy = jest.spyOn(userHelper, "generateUserBearerToken");
 
-    const res = await request(init()).post("/v1/users").send({
+    await request(init()).post("/v1/users").send({
       email: randomEmailAddress,
       password: "owwwoee",
       name: "444933",

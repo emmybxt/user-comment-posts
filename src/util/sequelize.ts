@@ -30,7 +30,6 @@ export const initDatabase = async () => {
 
     DBclient.query(`${sql}`, (err) => {
       if (err) {
-        console.log(err);
         logger.warn(`Error executing the database tables and columns`);
       } else {
         logger.info("Executed Tables and rows successfully");
