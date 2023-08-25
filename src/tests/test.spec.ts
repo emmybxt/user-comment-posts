@@ -2,7 +2,7 @@ import request from "supertest";
 
 import { createApp } from "../util/express";
 import { logger } from "../util/logger";
-import { DBclient, initDatabase } from "../util/sequelize";
+import { DBclient } from "../util/sequelize";
 import { userRoutes } from "../util/useRoutes";
 
 jest.mock("../helpers/users.ts");

@@ -10,7 +10,7 @@
     "ci": "jest --ci --verbose  --reporters=default --reporters=jest-junit",
     "dev": "yarn build:mix & node dist/index.js",
     "lint": "eslint . --ext .ts --fix",
-    "test": "jest --detectOpenHandles"
+    "test": "jest --verbose"
   },
   "repository": {
     "type": "git"
