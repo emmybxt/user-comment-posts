@@ -2,7 +2,7 @@ import request from "supertest";
 
 import { createApp } from "../util/express";
 import { logger } from "../util/logger";
-import { initDatabase } from "../util/sequelize";
+import { DBclient, initDatabase } from "../util/sequelize";
 import { userRoutes } from "../util/useRoutes";
 
 jest.mock("../helpers/users.ts");
@@ -12,7 +12,7 @@ const name = "Test Service";
 
 export const init = () => createApp(name, userRoutes);
 (async () => {
-  await initDatabase();
+  await DBclient.connect();
 
   init().listen(4000, () => {
     logger.info(`${name} Started successfully on : 3000`);
@@ -141,4 +141,9 @@ describe("Posts", () => {
       "User top post & comments Fetched succesfully",
     );
   });
+});
+
+afterAll(async () => {
+  // Close the PostgreSQL database connection
+  await DBclient.end();
 });
