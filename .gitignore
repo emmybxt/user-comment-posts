@@ -7,3 +7,4 @@ dist
 logs
 .env
 yarn.lock
+test-reports
