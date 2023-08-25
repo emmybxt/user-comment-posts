@@ -50,6 +50,6 @@ export const initDatabase = async () => {
       )} seconds`,
     );
 
-    setTimeout(() => initDatabase, nextConnect); // Corrected here
+    setTimeout(initDatabase, nextConnect); // Corrected here
   }
 };

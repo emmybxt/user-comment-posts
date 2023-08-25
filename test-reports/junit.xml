@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="12" failures="1" errors="0" time="9.496">
+  <testsuite name="User" errors="0" failures="1" skipped="0" timestamp="2023-08-25T16:39:54" time="4.648" tests="3">
+    <testcase classname="User should fail to create a new user when email exists" name="User should fail to create a new user when email exists" time="2.244">
+      <failure>Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/Users/nwaobiemeka/Applications/Codebase/Risevest-interview-question/node_modules/express/lib/application.js:635:24)
+    at listen (/Users/nwaobiemeka/Applications/Codebase/Risevest-interview-question/src/tests/auth.spec.ts:19:10)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+    <testcase classname="User should login a valid account" name="User should login a valid account" time="0.544">
+    </testcase>
+    <testcase classname="User should return all users" name="User should return all users" time="0.479">
+    </testcase>
+  </testsuite>
+  <testsuite name="User" errors="0" failures="0" skipped="0" timestamp="2023-08-25T16:39:54" time="8.609" tests="9">
+    <testcase classname="User should fail to create a new user when email exists" name="User should fail to create a new user when email exists" time="2.57">
+    </testcase>
+    <testcase classname="User should login a valid account" name="User should login a valid account" time="0.522">
+    </testcase>
+    <testcase classname="User should return all users" name="User should return all users" time="0.5">
+    </testcase>
+    <testcase classname="Posts should fail to create a post with an incorrect user Id" name="Posts should fail to create a post with an incorrect user Id" time="0.487">
+    </testcase>
+    <testcase classname="Posts should fail to when a string is passed as a user Id to create post" name="Posts should fail to when a string is passed as a user Id to create post" time="0.295">
+    </testcase>
+    <testcase classname="Posts should reject unwanted if post title is not passed" name="Posts should reject unwanted if post title is not passed" time="0.291">
+    </testcase>
+    <testcase classname="Posts should create a new post for a user" name="Posts should create a new post for a user" time="0.912">
+    </testcase>
+    <testcase classname="Posts should return posts for a user" name="Posts should return posts for a user" time="0.818">
+    </testcase>
+    <testcase classname="Posts should return top users comment and posts" name="Posts should return top users comment and posts" time="0.922">
+    </testcase>
+  </testsuite>
+</testsuites>

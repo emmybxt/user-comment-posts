@@ -4,7 +4,7 @@ import { ResponseType } from "../helpers/users";
 import * as userHelper from "../helpers/users";
 import { ExpressRequest } from "../util/express";
 import HandleResponse from "../util/response-handler";
-import { DBclient } from "../util/sequelize";
+import QueriesRepository from "../repository/queries";
 
 export async function signUp(
   req: ExpressRequest,
@@ -15,8 +15,10 @@ export async function signUp(
 
   try {
     // Check if the username already exists
-    const checkUserQuery = "SELECT * FROM users WHERE email = $1";
-    const existingUser = await DBclient.query(checkUserQuery, [email]);
+    const existingUser = await QueriesRepository.runQuery(
+      "SELECT * FROM users WHERE email = $1",
+      [email],
+    );
 
     if (existingUser.rowCount > 0) {
       return HandleResponse.sendErrorResponse({
@@ -31,14 +33,10 @@ export async function signUp(
       .update(password)
       .digest("hex");
 
-    // Insert the new user
-    const insertUserQuery =
-      "INSERT INTO users (name, email, password) VALUES ($1, $2, $3) RETURNING *";
-    const newUser = await DBclient.query(insertUserQuery, [
-      name,
-      email,
-      hashedPassword,
-    ]);
+    const newUser = await QueriesRepository.runQuery(
+      "INSERT INTO users (name, email, password) VALUES ($1, $2, $3) RETURNING *",
+      [name, email, hashedPassword],
+    );
 
     return HandleResponse.sendSuccessResponse({
       message: "User created successfully",
@@ -59,8 +57,10 @@ export async function login(
   const { email, password } = req.body;
 
   try {
-    const query = "SELECT * FROM users WHERE email = $1";
-    const { rows } = await DBclient.query(query, [email]);
+    const { rows } = await await QueriesRepository.runQuery(
+      "SELECT * FROM users WHERE email = $1",
+      [email],
+    );
 
     if (rows.length === 0) {
       return HandleResponse.sendErrorResponse({
@@ -78,8 +78,6 @@ export async function login(
     // Compare the hashes
 
     const userData = rows[0];
-
-    console.log(userData.password);
 
     if (enteredHashedPassword != userData.password) {
       return HandleResponse.sendErrorResponse({
@@ -114,8 +112,7 @@ export async function getAllUsers(
   next: NextFunction,
 ): Promise<ResponseType> {
   try {
-    const query = "SELECT * FROM users";
-    const { rows } = await DBclient.query(query);
+    const { rows } = await QueriesRepository.runQuery("SELECT * FROM users");
 
     if (rows.length === 0) {
       return HandleResponse.sendErrorResponse({

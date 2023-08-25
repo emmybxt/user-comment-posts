@@ -1,0 +1,27 @@
+version: "3.2"
+services:
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_CONNECTION_STRING: ${POSTGRES_CONNECTION_STRING}
+      POSTGRES_USER: ${POSTGRES_USERNAME}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DATABASE}
+    ports:
+      - "5432:5432"
+
+  user_services:
+    container_name: user-comments-posts
+    restart: always
+    build: ./
+    ports:
+      - "${PORT}:${PORT}"
+
+volumes:
+  pg_data:
+  redis_data:

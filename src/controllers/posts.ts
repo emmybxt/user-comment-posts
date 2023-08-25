@@ -3,7 +3,7 @@ import { NextFunction, Response } from "express";
 import { ResponseType } from "../helpers/users";
 import { ExpressRequest } from "../util/express";
 import HandleResponse from "../util/response-handler";
-import { DBclient } from "../util/sequelize";
+import QueriesRepository from "../repository/queries";
 
 export async function createPosts(
   req: ExpressRequest,
@@ -16,8 +16,10 @@ export async function createPosts(
   };
 
   try {
-    const query = "SELECT * FROM users WHERE id = $1";
-    const { rows } = await DBclient.query(query, [id]);
+    const { rows } = await QueriesRepository.runQuery(
+      "SELECT * FROM users WHERE id = $1",
+      [id],
+    );
 
     if (rows.length === 0) {
       return HandleResponse.sendErrorResponse({
@@ -26,9 +28,10 @@ export async function createPosts(
       });
     }
 
-    const insertPostQuery =
-      "INSERT INTO posts (title, userId) VALUES ($1, $2) RETURNING *";
-    const newUser = await DBclient.query(insertPostQuery, [title, id]);
+    const newUser = await QueriesRepository.runQuery(
+      "INSERT INTO posts (title, userId) VALUES ($1, $2) RETURNING *",
+      [title, id],
+    );
 
     return HandleResponse.sendSuccessResponse({
       message: "Post created successfully",
@@ -48,8 +51,10 @@ export async function getUserPosts(
   const { id } = req.params;
 
   try {
-    const query = "SELECT * FROM users WHERE id = $1";
-    const { rows } = await DBclient.query(query, [id]);
+    const { rows } = await QueriesRepository.runQuery(
+      "SELECT * FROM users WHERE id = $1",
+      [id],
+    );
 
     if (rows.length === 0) {
       return HandleResponse.sendErrorResponse({
@@ -58,8 +63,10 @@ export async function getUserPosts(
       });
     }
 
-    const userPostsQuery = "SELECT * FROM posts WHERE userid = $1";
-    const userPosts = await DBclient.query(userPostsQuery, [id]);
+    const userPosts = await QueriesRepository.runQuery(
+      "SELECT * FROM posts WHERE userid = $1",
+      [id],
+    );
 
     if (userPosts.rowCount === 0) {
       return HandleResponse.sendSuccessResponse({
@@ -84,8 +91,9 @@ export async function getTopUsersAndComment(
   next: NextFunction,
 ): Promise<ResponseType> {
   try {
-    const usersCommentQuery = "SELECT * FROM comments";
-    const usersComment = await DBclient.query(usersCommentQuery);
+    const usersComment = await QueriesRepository.runQuery(
+      "SELECT * FROM comments",
+    );
 
     if (usersComment.rowCount === 0) {
       return HandleResponse.sendSuccessResponse({
@@ -115,10 +123,10 @@ export async function getTopUsersAndComment(
     ) DESC
     LIMIT 3`;
 
-    const usersTopPostsAndComments = await DBclient.query(query);
+    const usersTopPostsAndComments = await QueriesRepository.runQuery(query);
 
     return HandleResponse.sendSuccessResponse({
-      message: "User Posts Fetched succesfully",
+      message: "User top post & comments Fetched succesfully",
       data: usersTopPostsAndComments.rows,
       res,
     });
