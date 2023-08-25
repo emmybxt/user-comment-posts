@@ -7,6 +7,7 @@
     "build:mix": "swc src -d dist & tsc --pretty --skipLibCheck --noEmit",
     "build:tsc": "tsc",
     "build": "swc src -d dist",
+    "start": "node dist/index.js",
     "ci": "jest --ci --verbose  --reporters=default --reporters=jest-junit",
     "dev": "yarn build:mix & node dist/index.js",
     "lint": "eslint . --ext .ts --fix",
