@@ -1,4 +1,5 @@
 import request from "supertest";
+
 import { init } from "./auth.spec";
 jest.mock("../helpers/users.ts");
 

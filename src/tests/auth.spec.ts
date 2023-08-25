@@ -1,8 +1,9 @@
+import request from "supertest";
+
 import { createApp } from "../util/express";
 import { logger } from "../util/logger";
 import { initDatabase } from "../util/sequelize";
 import { userRoutes } from "../util/useRoutes";
-import request from "supertest";
 
 jest.mock("../helpers/users.ts");
 jest.setTimeout(10000);
@@ -30,13 +31,9 @@ export function generateRandomLetters(count: number) {
   return result;
 }
 
-let randomEmailAddress = generateRandomLetters(5) + "@testmail.com";
-
-let user: any;
+const randomEmailAddress = generateRandomLetters(5) + "@testmail.com";
 
 describe("User", () => {
-  let getOneBySpy: jest.SpyInstance;
-
   beforeEach(async () => {
     // getOneBySpy = jest.spyOn(userHelper, "generateUserBearerToken");
 
@@ -45,8 +42,6 @@ describe("User", () => {
       password: "owwwoee",
       name: "444933",
     });
-
-    user = res.body.data;
   });
   afterEach(jest.resetAllMocks);
 

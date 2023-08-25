@@ -20,7 +20,7 @@ export const redisConnection = (): Redis => {
       process.exit(1);
     });
 
-    redis.once("error", (error) => {
+    redis.once("error", () => {
       logger.error(`Unable to establish default connection to redis`);
       process.exit(1);
     });

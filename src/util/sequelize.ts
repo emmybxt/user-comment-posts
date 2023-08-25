@@ -1,9 +1,9 @@
 import appRoot from "app-root-path";
 import fs from "fs";
 import { Client } from "pg";
-import { logger } from "./logger";
 
 import { POSTGRES_CONNECTION_STRING } from "../config/env";
+import { logger } from "./logger";
 
 const connectOptions = {
   connectionString: POSTGRES_CONNECTION_STRING,
@@ -28,7 +28,7 @@ export const initDatabase = async () => {
 
     const sql = fs.readFileSync(path, "utf8");
 
-    DBclient.query(`${sql}`, (err, res) => {
+    DBclient.query(`${sql}`, (err) => {
       if (err) {
         console.log(err);
         logger.warn(`Error executing the database tables and columns`);

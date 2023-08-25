@@ -1,4 +1,3 @@
-import { IUser } from "../config/interfaces";
 import { DBclient } from "../util/sequelize";
 
 class QueriesRepository {

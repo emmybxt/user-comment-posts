@@ -3,9 +3,9 @@ import cors from "cors";
 import express, { Express, NextFunction, Request, Response } from "express";
 import helmet from "helmet";
 
+import { IUser } from "../config/interfaces";
 import requestLogger from "../middlewares/requestLogger";
 import HandleResponse from "./response-handler";
-import { IUser } from "../config/interfaces";
 
 export interface ExpressRequest extends Request {
   user?: IUser;

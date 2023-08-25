@@ -1,10 +1,10 @@
 import { NextFunction, Response } from "express";
 
 import { ResponseType } from "../helpers/users";
+import { throwIfUndefined } from "../middlewares/validateToken";
+import QueriesRepository from "../repository/queries";
 import { ExpressRequest } from "../util/express";
 import HandleResponse from "../util/response-handler";
-import QueriesRepository from "../repository/queries";
-import { throwIfUndefined } from "../middlewares/validateToken";
 
 export async function createComment(
   req: ExpressRequest,

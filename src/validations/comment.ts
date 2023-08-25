@@ -1,9 +1,8 @@
 import { NextFunction, Response } from "express";
 import Joi from "joi";
 
-import { ExpressRequest } from "../util/express";
 import { ResponseType } from "../helpers/users";
-
+import { ExpressRequest } from "../util/express";
 import HandleResponse from "../util/response-handler";
 
 export async function validateCreateComment(

@@ -1,7 +1,6 @@
 import express from "express";
 
 import * as postControllers from "../controllers/posts";
-
 import * as postValidation from "../validations/post";
 const router = express.Router();
 

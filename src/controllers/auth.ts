@@ -1,10 +1,11 @@
-import { NextFunction, Response } from "express";
 import crypto from "crypto";
+import { NextFunction, Response } from "express";
+
 import { ResponseType } from "../helpers/users";
 import * as userHelper from "../helpers/users";
+import QueriesRepository from "../repository/queries";
 import { ExpressRequest } from "../util/express";
 import HandleResponse from "../util/response-handler";
-import QueriesRepository from "../repository/queries";
 
 export async function signUp(
   req: ExpressRequest,
@@ -44,7 +45,6 @@ export async function signUp(
       res,
     });
   } catch (error) {
-    console.log(error);
     return next(error);
   }
 }
