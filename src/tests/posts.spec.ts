@@ -86,7 +86,7 @@ describe("createPosts", () => {
     await getUserPosts(req, resMock, nextFn);
 
     expect(querySpy).toHaveBeenCalledWith("SELECT * FROM users WHERE id = $1", [
-      1,
+      "1",
     ]);
     expect(querySpy).not.toHaveBeenCalledWith(
       "SELECT * FROM posts WHERE userid = $1",
