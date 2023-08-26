@@ -2,7 +2,7 @@ import { NextFunction, Response } from "express";
 import Joi from "joi";
 import jwt from "jsonwebtoken";
 
-import { TOKEN_SECRET } from "../config/env";
+import { NODE_ENV, TOKEN_SECRET } from "../config/env";
 import * as userHelper from "../helpers/users";
 import { ExpressRequest } from "../util/express";
 import HandleResponse from "../util/response-handler";
@@ -57,6 +57,7 @@ export async function validateToken(
         status: 401,
       });
     }
+    //check redis for active session
 
     const tokenStatus = await userHelper.isTokenValid(token);
     if (!tokenStatus) {

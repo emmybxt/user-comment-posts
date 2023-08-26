@@ -8,7 +8,7 @@ import { userRoutes } from "./util/useRoutes";
 // import Database from "./util/sequelize";
 const name = "User Posts & Comments Service";
 
-const init = () => createApp(name, userRoutes);
+export const init = () => createApp(name, userRoutes);
 
 (async () => {
   validateEnv();

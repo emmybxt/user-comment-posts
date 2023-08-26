@@ -39,7 +39,6 @@ export async function createPosts(
       res,
     });
   } catch (error) {
-    console.error(error);
     return next(error);
   }
 }

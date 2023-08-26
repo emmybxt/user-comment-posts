@@ -1,5 +1,5 @@
 {
-  "include": ["./src/**/*"],
+  "include": ["./src/**/*", "src/tests/test.dspec.ts"],
   "compilerOptions": {
     /* Basic Options */
     "incremental": false /* Enable incremental compilation */,

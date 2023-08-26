@@ -1,8 +1,12 @@
 import express from "express";
 
 import * as postControllers from "../controllers/posts";
+import * as middleware from "../middlewares/validateToken";
 import * as postValidation from "../validations/post";
+
 const router = express.Router();
+
+router.use(middleware.validateToken);
 
 router.get(
   "/users/:id/posts",

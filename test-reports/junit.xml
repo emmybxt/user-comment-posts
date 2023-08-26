@@ -1,38 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="12" failures="1" errors="0" time="9.496">
-  <testsuite name="User" errors="0" failures="1" skipped="0" timestamp="2023-08-25T16:39:54" time="4.648" tests="3">
-    <testcase classname="User should fail to create a new user when email exists" name="User should fail to create a new user when email exists" time="2.244">
-      <failure>Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
-    at listenInCluster (net.js:1379:12)
-    at Server.listen (net.js:1465:7)
-    at Function.listen (/Users/nwaobiemeka/Applications/Codebase/Risevest-interview-question/node_modules/express/lib/application.js:635:24)
-    at listen (/Users/nwaobiemeka/Applications/Codebase/Risevest-interview-question/src/tests/auth.spec.ts:19:10)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+<testsuites name="jest tests" tests="13" failures="0" errors="0" time="1.195">
+  <testsuite name="createPosts" errors="0" failures="0" skipped="0" timestamp="2023-08-26T16:30:36" time="0.598" tests="5">
+    <testcase classname="createPosts should create a new post" name="createPosts should create a new post" time="0.005">
     </testcase>
-    <testcase classname="User should login a valid account" name="User should login a valid account" time="0.544">
+    <testcase classname="createPosts should fetch user posts successfully" name="createPosts should fetch user posts successfully" time="0.001">
     </testcase>
-    <testcase classname="User should return all users" name="User should return all users" time="0.479">
+    <testcase classname="createPosts should send error response when user is not found" name="createPosts should send error response when user is not found" time="0.002">
+    </testcase>
+    <testcase classname="createPosts should fetch top users and comments successfully" name="createPosts should fetch top users and comments successfully" time="0.001">
+    </testcase>
+    <testcase classname="createPosts should send success response when no comments exist" name="createPosts should send success response when no comments exist" time="0.001">
     </testcase>
   </testsuite>
-  <testsuite name="User" errors="0" failures="0" skipped="0" timestamp="2023-08-25T16:39:54" time="8.609" tests="9">
-    <testcase classname="User should fail to create a new user when email exists" name="User should fail to create a new user when email exists" time="2.57">
+  <testsuite name="createComment" errors="0" failures="0" skipped="0" timestamp="2023-08-26T16:30:37" time="0.361" tests="1">
+    <testcase classname="createComment should send error response when post ID is not valid" name="createComment should send error response when post ID is not valid" time="0.002">
     </testcase>
-    <testcase classname="User should login a valid account" name="User should login a valid account" time="0.522">
+  </testsuite>
+  <testsuite name="Request controller" errors="0" failures="0" skipped="0" timestamp="2023-08-26T16:30:37" time="0.121" tests="7">
+    <testcase classname="Request controller Users controllers should create a new user" name="Request controller Users controllers should create a new user" time="0.006">
     </testcase>
-    <testcase classname="User should return all users" name="User should return all users" time="0.5">
+    <testcase classname="Request controller Users controllers should send error response when email already exists" name="Request controller Users controllers should send error response when email already exists" time="0.001">
     </testcase>
-    <testcase classname="Posts should fail to create a post with an incorrect user Id" name="Posts should fail to create a post with an incorrect user Id" time="0.487">
+    <testcase classname="Request controller Users controllers should call next with error when an error occurs" name="Request controller Users controllers should call next with error when an error occurs" time="0.001">
     </testcase>
-    <testcase classname="Posts should fail to when a string is passed as a user Id to create post" name="Posts should fail to when a string is passed as a user Id to create post" time="0.295">
+    <testcase classname="Request controller Users controllers should send success response with user data when users are fetched" name="Request controller Users controllers should send success response with user data when users are fetched" time="0.001">
     </testcase>
-    <testcase classname="Posts should reject unwanted if post title is not passed" name="Posts should reject unwanted if post title is not passed" time="0.291">
+    <testcase classname="Request controller Users controllers should send error response when no users are fetched" name="Request controller Users controllers should send error response when no users are fetched" time="0.001">
     </testcase>
-    <testcase classname="Posts should create a new post for a user" name="Posts should create a new post for a user" time="0.912">
+    <testcase classname="Request controller Users controllers should log in a user successfully" name="Request controller Users controllers should log in a user successfully" time="0.002">
     </testcase>
-    <testcase classname="Posts should return posts for a user" name="Posts should return posts for a user" time="0.818">
-    </testcase>
-    <testcase classname="Posts should return top users comment and posts" name="Posts should return top users comment and posts" time="0.922">
+    <testcase classname="Request controller Users controllers should send error response when user doesn&apos;t exist" name="Request controller Users controllers should send error response when user doesn&apos;t exist" time="0.001">
     </testcase>
   </testsuite>
 </testsuites>
