@@ -1,10 +1,9 @@
 import { createMock } from "@golevelup/ts-jest";
 import { NextFunction, Response } from "express";
-import QueriesRepository from "../repository/queries";
-import * as userHelper from "../helpers/users";
 
-import { createComment } from "../controllers/comment";
 import { IUser } from "../config/interfaces";
+import { createComment } from "../controllers/comment";
+import QueriesRepository from "../repository/queries";
 import { ExpressRequest } from "../util/express";
 import HandleResponse from "../util/response-handler";
 
@@ -19,7 +18,6 @@ describe("createComment", () => {
   let querySpy: jest.SpyInstance;
   let sendSuccessResponseMock: jest.SpyInstance;
   let sendErrorResponseMock: jest.SpyInstance;
-  let throwIfUndefinedSpy: jest.SpyInstance;
 
   beforeEach(() => {
     user = createMock<IUser>({

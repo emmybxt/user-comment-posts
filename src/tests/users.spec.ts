@@ -1,11 +1,11 @@
 import { createMock } from "@golevelup/ts-jest";
-import { Response } from "express";
-import QueriesRepository from "../repository/queries";
-import * as userHelper from "../helpers/users";
 import crypto from "crypto";
+import { Response } from "express";
 
-import { signUp, login, getAllUsers } from "../controllers/auth";
 import { IUser } from "../config/interfaces";
+import { getAllUsers, login, signUp } from "../controllers/auth";
+import * as userHelper from "../helpers/users";
+import QueriesRepository from "../repository/queries";
 import { ExpressRequest } from "../util/express";
 import HandleResponse from "../util/response-handler";
 

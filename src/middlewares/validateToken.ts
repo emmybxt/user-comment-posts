@@ -2,7 +2,7 @@ import { NextFunction, Response } from "express";
 import Joi from "joi";
 import jwt from "jsonwebtoken";
 
-import { NODE_ENV, TOKEN_SECRET } from "../config/env";
+import { TOKEN_SECRET } from "../config/env";
 import * as userHelper from "../helpers/users";
 import { ExpressRequest } from "../util/express";
 import HandleResponse from "../util/response-handler";

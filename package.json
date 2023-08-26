@@ -22,7 +22,7 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged",
       "prepare-commit-msg": "jira-prepare-commit-msg",
-      "pre-push": "yarn lint && yarn build:mix"
+      "pre-push": "yarn lint && yarn build:mix && yarn run test"
     }
   },
   "jest-junit": {

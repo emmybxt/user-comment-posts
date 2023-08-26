@@ -1,15 +1,15 @@
-import QueriesRepository from "../repository/queries";
+import { createMock } from "@golevelup/ts-jest";
 import { Response } from "express";
+import { NextFunction } from "express";
 
 import {
   createPosts,
   getTopUsersAndComment,
   getUserPosts,
 } from "../controllers/posts";
+import QueriesRepository from "../repository/queries";
 import { ExpressRequest } from "../util/express";
 import HandleResponse from "../util/response-handler";
-import { createMock } from "@golevelup/ts-jest";
-import { NextFunction } from "express";
 
 jest.mock("../helpers/users");
 
